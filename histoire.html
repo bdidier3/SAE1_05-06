@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'accueil</title>
+    <link rel="stylesheet" type="text/css" href="css/style_histoire.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <img class="logo-nav" src="images/logo.svg" width="50" height="50" alt="Logo du Site">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="histoire.html">Histoire</a></li>
+                <li><a href="actualités.html">Actualités</a></li>
+                <li><a href="economie.html">Economie</a></li>
+                <li><a href="support_faq.html">Support FAQ</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+
+    <section id="home-page2">
+        <div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+         </div>
+        <div class="titre-page2">
+          <h1>L'histoire de SFR</h1>
+        </div>
+      </section>
+
+
+    <section id="home2-page2">
+        <br><br><br><br><br><br>  
+        <div id="timeline">
+        <h1>L'histoire de SFR</h1><br>
+        <ul id="ul1">
+            <li style="--accent-color:#cc0605">
+                <div class="date">1987</div>
+                <div class="title">Création de SFR</div>
+                <div class="descr">Fondée par la Compagnie générale des eaux, SFR propose des services de radiotélécommunications analogiques avec la norme NMT, en concurrence avec France Télécom.</div>
+            </li>
+            <li style="--accent-color:#cc0605">
+                <div class="date">1996</div>
+                <div class="title">Expansion rapide</div>
+                <div class="descr">SFR devient le deuxième opérateur mobile en France, avec des millions d’abonnés, consolidant sa place dans le marché des télécommunications.</div>
+            </li>
+            <li style="--accent-color:#cc0605">
+                <div class="date">2003</div>
+                <div class="title">Introduction de la 3G</div>
+                <div class="descr">SFR introduit la 3G, permettant l'accès à l'Internet mobile haut débit et aux services multimédias.</div>
+            </li>
+            <li style="--accent-color:#cc0605">
+                <div class="date">2015</div>
+                <div class="title">Naissance de SFR Group</div>
+                <div class="descr">La fusion de SFR et Numericable donne naissance à SFR Group, qui regroupe les activités de téléphonie mobile, d'Internet fixe, et des services de télévision, devenant un acteur clé de la convergence numérique en France.</div>
+            </li>
+            <li style="--accent-color:#cc0605">
+                <div class="date">2020</div>
+                <div class="title">Introduction de la 5G</div>
+                <div class="descr">SFR déploie la 5G, devenant l’un des premiers opérateurs français à offrir cette technologie.</div>
+            </li>
+        </ul>
+        </div>
+
+      </section>
+      
+
+      <footer>
+        <div class="container footer-container">
+            <div class="col-3">
+                <img src="./images/logo_footer.png" alt="Logo_site">
+
+                <br>
+                <div class="social">
+                    <a href="https://www.facebook.com/SFR"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="httAps://www.instagram.com/sfr.officiel/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/SFR"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/channel/UCmOWXd_I8xsFRViDcQBNolA"><i class="fa-brands fa-youtube"></i></a>
+
+                </div>
+                <br>
+                <span class="address">Adresse: 25 Fbg de France, 90000 Belfort <br>Mail: contact@sfr.fr
+                </span>
+            </div>
+            <div class="col-3">
+                <h6>À propos</h6>
+                <p>
+                    SFR, acteur majeur des télécommunications en France, offre des solutions innovantes <br>en matière de mobile, internet et divertissement. 
+                    <br>
+                    <br>
+                    Connectez-vous à l'avenir avec un réseau fiable et des services à la pointe de la technologie.
+                </p>
+            </div>
+            <div class="col-3">
+                <h6>Actualités</h6>
+                <a href="actualités.html">Voir l'acutalité</a>
+
+            </div>
+
+            <div class="col-3">
+                <h6>Economie</h6>
+                <a href="economie.html">Rapport Economique</a>
+            </div>
+
+            <div class="col-3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2688.4543110400573!2d6.8538139761374675!3d47.63673778589627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47923c9fd3dcc921%3A0x874a887c8f1e512c!2sBoutique%20SFR%20Belfort!5e0!3m2!1sfr!2sfr!4v1726425397458!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+</div>
+        <div class="copyright">
+            Antoine Duarte &#169; 2024 
+        </div>
+    </footer>
+
+    <script>
+        // Écoute l'événement de scroll
+        window.addEventListener('scroll', function() {
+            var navbar = document.querySelector('.navbar');
+            // Ajoute la classe 'scrolled' si on défile de plus de 50px
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>

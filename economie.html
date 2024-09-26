@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'Économie</title>
+    <link rel="stylesheet" type="text/css" href="css/style_economie.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+
+            <img class="logo-nav" src="images/logo.svg" width="50" height="50" alt="Logo du Site">
+                  
+
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                <li><a href="histoire.html">Histoire</a></li>
+                <li><a href="actualités.html">Actualités</a></li>
+                <li><a href="economie.html">Economie</a></li>
+                <li><a href="support_faq.html">Support FAQ</a></li>
+                </ul>
+
+        </nav>
+    
+    </header>
+
+    <section id="home-page2">
+        <div class="titre-page2">
+          <h1>Economie de SFR</h1>
+        </div>
+      </section>
+
+
+    <section id="home2-page2">
+        <br>
+        <h1>Économie</h1>
+        <nav class="contenu">
+            <div>
+                <p>SFR est l'un des principaux opérateurs de télécommunications en France. Fondée en 1987, elle offre une gamme complète de services de téléphonie mobile, internet haut débit, télévision numérique et services pour les entreprises. Elle est actuellement une filiale d'Altice France, qui est elle-même une branche du groupe international Altice.
+                <br>
+                <br>
+                En 2023, SFR a généré un chiffre d'affaires estimé à environ X milliards d'euros (selon les résultats disponibles). Cette performance est en ligne avec l'évolution du secteur des télécommunications, avec une croissance due à l'augmentation des abonnements aux services de fibre optique et de téléphonie mobile, ainsi qu'une résilience dans le segment des entreprises.
+                <br>
+                <br>
+                Le résultat opérationnel a été impacté par des coûts d'exploitation, notamment liés aux investissements dans les infrastructures de réseau 5G et fibre optique. Malgré cela, SFR a maintenu un bénéfice net positif, s'élevant à environ X millions d'euros en 2023.
+                <br>
+                <br>
+                SFR fait face à un endettement élevé, hérité en partie de sa maison mère Altice, qui continue d'influencer sa capacité d'investissement. Cependant, l'entreprise a adopté une politique de gestion rigoureuse de la dette afin de maintenir sa position sur le marché tout en restant compétitive.</p>
+            </div>
+            <div>
+                <img src="./images/entreprise.jpeg" alt="" width="350" height="500">
+            </div>
+        </nav>
+    </section>
+      
+
+    <footer>
+        <div class="container footer-container">
+            <div class="col-3">
+                <img src="./images/logo_footer.png" alt="Logo_site">
+
+                <br>
+                <div class="social">
+                    <a href="https://www.facebook.com/SFR"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="httAps://www.instagram.com/sfr.officiel/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/SFR"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/channel/UCmOWXd_I8xsFRViDcQBNolA"><i class="fa-brands fa-youtube"></i></a>
+
+                </div>
+                <br>
+                <span class="address">Adresse: 25 Fbg de France, 90000 Belfort <br>Mail: contact@sfr.fr
+                </span>
+            </div>
+            <div class="col-3">
+                <h6>À propos</h6>
+                <p>
+                    SFR, acteur majeur des télécommunications en France, offre des solutions innovantes <br>en matière de mobile, internet et divertissement. 
+                    <br>
+                    <br>
+                    Connectez-vous à l'avenir avec un réseau fiable et des services à la pointe de la technologie.
+                </p>
+            </div>
+            <div class="col-3">
+                <h6>Actualités</h6>
+                <a href="actualités.html">Voir l'acutalité</a>
+
+            </div>
+
+            <div class="col-3">
+                <h6>Economie</h6>
+                <a href="economie.html">Rapport Economique</a>
+            </div>
+
+            <div class="col-3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2688.4543110400573!2d6.8538139761374675!3d47.63673778589627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47923c9fd3dcc921%3A0x874a887c8f1e512c!2sBoutique%20SFR%20Belfort!5e0!3m2!1sfr!2sfr!4v1726425397458!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+</div>
+        <div class="copyright">
+            Mathis Demoly &#169; 2024 
+        </div>
+    </footer>
+
+    <script>
+        // Écoute l'événement de scroll
+        window.addEventListener('scroll', function() {
+            var navbar = document.querySelector('.navbar');
+            // Ajoute la classe 'scrolled' si on défile de plus de 50px
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>
