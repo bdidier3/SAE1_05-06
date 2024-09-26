@@ -26,7 +26,7 @@ Le projet est un site web présentant l'entreprise SFR. Ce-dernier comporte une 
 
 **Auteur : Baptiste DIDIER**
 
-[w3c Page Accueil]()
+[w3c Page Accueil](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbdidier3.github.io%2FSAE1_05-06%2Findex.html)
 
 ![Image montrant un check positif w3c pour la page accueil](![image](https://github.com/user-attachments/assets/aa23831f-9de7-491d-8426-97e5c3af3808)
 
@@ -35,7 +35,7 @@ Le projet est un site web présentant l'entreprise SFR. Ce-dernier comporte une 
 
 **Auteur : Antoine DUARTE**
 
-[w3c Page histoirel]()
+[w3c Page histoirel](https://bdidier3.github.io/SAE1_05-06/histoire.html)
 
 ![Image montrant un check positif w3c pour la page histoire](![image](https://github.com/user-attachments/assets/0f175dc3-f587-4b4d-b486-94262b73d9fa)
 
@@ -44,7 +44,7 @@ Le projet est un site web présentant l'entreprise SFR. Ce-dernier comporte une 
 
 **Auteur : Ethan FIGINI**
 
-[w3c Page d'actualitél]()
+[w3c Page d'actualitél](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbdidier3.github.io%2FSAE1_05-06%2Factualit%C3%A9s.html)
 
 ![Image montrant un check positif w3c pour la page actualité](![image]()
 
@@ -53,7 +53,7 @@ Le projet est un site web présentant l'entreprise SFR. Ce-dernier comporte une 
 
 **Auteur : Mathis DEMOLY**
 
-[w3c Page économiel]()
+[w3c Page économiel]( https://validator.w3.org/nu/?doc=https%3A%2F%2Fbdidier3.github.io%2FSAE1_05-06%2Feconomie.html)
 
 ![Image montrant un check positif w3c pour la page économie](![image](https://github.com/user-attachments/assets/ab132c3e-96fa-4ee2-9a16-dec751b9864c)
 
