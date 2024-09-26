@@ -24,3 +24,40 @@ Le projet est un site web présentant l'entreprise SFR. Ce-dernier comporte une 
 
 ## Page d'accueil
 
+**Auteur : Baptiste DIDIER**
+
+[w3c Page Accueil]()
+
+![Image montrant un check positif w3c pour la page accueil]()
+
+### Page histoire
+
+**Auteur : Antoine DUARTE**
+
+[w3c Page histoirel]()
+
+![Image montrant un check positif w3c pour la page histoire]()
+
+### Page actualité
+
+**Auteur : Ethan FIGINI**
+
+[w3c Page d'actualitél]()
+
+![Image montrant un check positif w3c pour la page actualité]()
+
+### Page économie
+
+**Auteur : Mathis DEMOLY**
+
+[w3c Page économiel]()
+
+![Image montrant un check positif w3c pour la page économie]()
+
+### Page support FAQ
+
+**Auteur : Baptiste DIDIER**
+
+[w3c Page support FAQ]()
+
+![Image montrant un check positif w3c pour la page support F]()
