@@ -35,7 +35,7 @@ Le projet est un site web présentant l'entreprise SFR. Ce-dernier comporte une 
 
 **Auteur : Antoine DUARTE**
 
-[w3c Page histoirel](https://bdidier3.github.io/SAE1_05-06/histoire.html)
+[w3c Page histoire](https://bdidier3.github.io/SAE1_05-06/histoire.html)
 
 ![Image montrant un check positif w3c pour la page histoire](![image](https://github.com/user-attachments/assets/0f175dc3-f587-4b4d-b486-94262b73d9fa)
 
