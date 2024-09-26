@@ -46,7 +46,8 @@ Le projet est un site web présentant l'entreprise SFR. Ce-dernier comporte une 
 
 [w3c Page d'actualitél]()
 
-![Image montrant un check positif w3c pour la page actualité]()
+![Image montrant un check positif w3c pour la page actualité](![image](https://github.com/user-attachments/assets/cf9efd54-11e9-46a2-b648-039ec493d729)
+
 
 ### Page économie
 
