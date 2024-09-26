@@ -7,7 +7,7 @@
 - 🪧 [Présentation du projet](#présentation-du-projet)
 
 ## Lien du site
-[SAE-S1.-05-06 :](https://login.github.io/projet/)
+[SAE-S1.-05-06](https://bdidier3.github.io/SAE1_05-06/index.html)
 
 ## Membres du groupe :
 
