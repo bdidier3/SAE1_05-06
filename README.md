@@ -18,3 +18,6 @@ Etudiant 4 : [DEMOLY Mathis](mathis.demoly@edu.univ-fcomte.fr)
 
 # Présentation du projet
 
+Le projet est un site web présentant l'entreprise SFR. Ce-dernier comporte une page d’accueil mettant en avant l’identité visuelle de l'entreprise, faisant office de menu. Le site compte également 4 autres pages présentant respectivement la histoire de l’entreprise, ses actualtés, sa situation économique et un support FAQ.
+
+# Développement Site Web et Validation des pages
