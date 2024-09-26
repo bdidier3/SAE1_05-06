@@ -53,7 +53,7 @@ Le projet est un site web présentant l'entreprise SFR. Ce-dernier comporte une 
 
 **Auteur : Mathis DEMOLY**
 
-[w3c Page économiel]( https://validator.w3.org/nu/?doc=https%3A%2F%2Fbdidier3.github.io%2FSAE1_05-06%2Feconomie.html)
+[w3c Page économie]( https://validator.w3.org/nu/?doc=https%3A%2F%2Fbdidier3.github.io%2FSAE1_05-06%2Feconomie.html)
 
 ![Image montrant un check positif w3c pour la page économie](![image](https://github.com/user-attachments/assets/ab132c3e-96fa-4ee2-9a16-dec751b9864c)
 
