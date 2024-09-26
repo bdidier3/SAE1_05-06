@@ -42,11 +42,11 @@ Le projet est un site web présentant l'entreprise SFR. Ce-dernier comporte une 
 
 ### Page actualité
 
-**Auteur : Ethan FIGINI**
+**Auteur : Baptiste DIDIER**
 
 [w3c Page d'actualitél]()
 
-![Image montrant un check positif w3c pour la page actualité](![image](https://github.com/user-attachments/assets/cf9efd54-11e9-46a2-b648-039ec493d729)
+![Image montrant un check positif w3c pour la page actualité](![image]()
 
 
 ### Page économie
@@ -61,8 +61,8 @@ Le projet est un site web présentant l'entreprise SFR. Ce-dernier comporte une 
 
 ### Page support FAQ
 
-**Auteur : Baptiste DIDIER**
+**Auteur : Ethan FIGINI**
 
 [w3c Page support FAQ]()
 
-![Image montrant un check positif w3c pour la page support F]()
+![Image montrant un check positif w3c pour la page support FAQ](https://github.com/user-attachments/assets/cf9efd54-11e9-46a2-b648-039ec493d729)
