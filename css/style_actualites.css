@@ -20,14 +20,14 @@ html, body, section {
   
   section:nth-of-type(even) {
     color: white;
-    background: rgb(255, 255, 255);
+   
   }
   
   section:nth-of-type(odd) {
     color: rgb(255, 255, 255);
     background-color: #c43333;
     position: relative;
-    padding: 10px;
+   
   }
   
   body {
@@ -51,6 +51,8 @@ html, body, section {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+      text-decoration: none;
+      font-family:;
   }
   
   body {
@@ -67,78 +69,99 @@ html, body, section {
   
   .slide1>h1{
   
-    
+    scale: 1.6;
     display: flex;
     margin-left: 200px;
-    margin-top: 150px;
+    margin-top: 17%;
     color: rgb(217, 210, 210);
 
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: black;
     border-radius: 20px;
-   
   }
   
   .slide1>ul{
-    margin-left: 150px;
-    scale: 0.3;
-margin-top: 200px;
-    position: absolute;
-    color: rgb(203, 198, 198);
-    text-decoration: none;
-    scale: 0.5;
-  
+    margin-left: -7%;
+margin-top: 15%;
+   position: absolute;
+    scale: 0.6;
+    
   }
-  
-
-  
-/* HOVER POUR LA LISTE SLIDE 1 */
 
 
+li>a{
+color: black;
+margin-bottom: 30px;
 
-.slide1>li {
-  margin-bottom: 30px; /* Ajoute un espace entre chaque élément de la liste */
+}
+
+
+.slide1>img{
+  position: relative;
+margin-top: 100px;
+  margin-left: 175px;
+margin-bottom: -10px;
+}
+
+li {
+  color: #000;
+  position: relative;
   text-decoration: none;
-  color: white;
-}
-
-.slide1>li:hover {
-  background-color: #f0f0f0; /* Change le fond sur le hover */
-  transform:scale(1.2); /* Agrandit l'élément au survol */
-}
-
-.slide1>li:nth-child(1):hover {
-  background-color: #e0f7fa; /* Couleur spécifique pour le premier élément */
-}
-
-.slide1>li:nth-child(2):hover {
-  background-color: #ffe082; /* Couleur spécifique pour le deuxième élément */
-}
-
-.slide1>li:nth-child(3):hover {
-  background-color: #c5e1a5; /* Couleur spécifique pour le troisième élément */
-}
-
-.slide1>li:nth-child(4):hover {
-  background-color: #ffab91; /* Couleur spécifique pour le quatrième élément */
-}
-
-
-
-a:hover {
-  color: #000; /* Change la couleur du texte au survol */
 }
 
 
 /* HOVER POUR LA LISTE SLIDE 1 */
 
-  .slide1>img{
-    position: relative;
-  margin-top: 100px;
-    margin-left: 175px;
-  margin-bottom: -10px;
-  }
+body a:hover{
+ 
+  line-height: 1.1em;
+  padding-bottom: calc(2.1 * var(--s));
+  background: conic-gradient(from 135deg at top, var(--c) 90deg, #0000 0) left 0
+      bottom var(--s) / calc(2 * var(--s)) var(--s) repeat-x,
+    conic-gradient(from -45deg at bottom, var(--c) 90deg, #0000 0) left var(--s)
+      bottom 0 / calc(2 * var(--s)) var(--s) repeat-x;
+  -webkit-mask: linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0) 0 / var(--_p, 0%) padding-box no-repeat;
+  transition: 0.5s;
+}
+.slide1>li:hover {
+  --_p: 100%;
+  color: var(--c);
+}
+
+
+
+.sommaire>li::before {
+  background: hsl(0, 0%, 100%);
+  content: "";
+  inset: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.5s ease-in-out;
+  z-index: -1;
+}
+
+li:hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+
+
+
   
+/* HOVER POUR LA LISTE SLIDE 1 */
+
+
+
+
+
+
+
+
+
+
   
   
   
@@ -218,7 +241,7 @@ a:hover {
   
   
   
-  
+ 
   
   #home {
       display: flex;
@@ -519,6 +542,13 @@ a:hover {
   
   }
   
+
+
+
+
+
+
+
   /*FOOTER*/
   footer{
     font-family: 'Cabin';
