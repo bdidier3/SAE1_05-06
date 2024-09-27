@@ -1,0 +1,635 @@
+
+
+/* SCROLL*/
+html, body, section {
+    block-size: 100%;
+  }
+  
+  html {
+    scroll-snap-type: y mandatory;
+  }
+  
+  section {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    
+    display: flex;
+    
+  
+  }
+  
+  section:nth-of-type(even) {
+    color: white;
+    background: rgb(255, 255, 255);
+  }
+  
+  section:nth-of-type(odd) {
+    color: rgb(255, 255, 255);
+    background-color: #c43333;
+    position: relative;
+    padding: 10px;
+  }
+  
+  body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    font-size: 4rem;
+  }
+  
+  /* SCROLL*/
+  
+  
+ 
+  /* Ma partie*/
+  
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      height: 100%;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .slide1>h1{
+  
+    
+    display: flex;
+    margin-left: 200px;
+    margin-top: 150px;
+    color: rgb(217, 210, 210);
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    border-radius: 20px;
+   
+  }
+  
+  .slide1>ul{
+  
+    margin-left: 150px;
+    scale: 0.3;
+margin-top: 200px;
+    position: absolute;
+    color: rgb(203, 198, 198);
+    scale: 0.5;
+   
+  }
+  
+  .slide1>img{
+    position: relative;
+  margin-top: 100px;
+    margin-left: 175px;
+  margin-bottom: -10px;
+  }
+  
+  
+  
+  
+  
+  .slide2>h3{
+    margin-top: 250px;
+    color: rgb(19, 18, 18);
+  margin-left: 850px;
+  display: flex;
+  text-align: center;
+  }
+  .slide2>h4{
+    border: solid;
+    text-align: center;
+    scale: 0.5;
+    
+    position: absolute;
+    margin-right: 400px;
+    margin-top: 200px;
+    color: rgb(14, 14, 14);
+  }
+  
+  
+  
+  
+  
+  .slide3>h3{
+    margin-top: 250px;
+    color: rgb(231, 222, 222);
+  margin-right: 900px;
+  text-align: center;
+  }
+  .slide3>h4{
+    border: solid;
+    text-align: center;
+    scale: 0.5;
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 350px;
+    color: rgb(14, 14, 14);
+    color: white;
+  }
+  
+  
+  
+  
+  .slide4>h3{
+    margin-top: 250px;
+    color: rgb(19, 18, 18);
+  margin-left: 900px;
+  display: flex;
+  }
+  .slide4>h4{
+    border: solid;
+    text-align: center;
+    scale: 0.5;
+    margin-top: 200px;
+    position: absolute;
+    margin-right: 400px;
+    color: rgb(14, 14, 14);
+  }
+  
+  
+  
+  
+  .slide5>h3{
+    margin-top: 250px;
+    color: rgb(19, 18, 18);
+  margin-left: 175px;
+  display: flex;
+  }
+  
+  
+  
+  
+  
+  /* Ma partie*/
+  
+  
+  
+  
+  
+  #home {
+      display: flex;
+      justify-content: space-between;
+      background: url("../images/background.jpg");
+      background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+      background-attachment: relative; 
+      height: 100vh; 
+      flex-wrap: wrap;
+    } 
+  
+  #home-other{
+    display: flex;
+      justify-content: space-between;
+      background: url("");
+      background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+      background-attachment: relative; 
+      height: 100vh; 
+      flex-wrap: wrap;
+  }
+  
+  #home-2 {
+      background-color: aliceblue;
+      background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+      background-attachment: relative; 
+      height: 100vh; 
+  } 
+  
+  body, html {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+  
+    
+    .home-content {
+      color: white;
+      max-width: 50%;
+    }
+    .home-content p{
+      display: flex;
+      flex-wrap: wrap;
+      position: absolute;
+      font-size: 0.9rem; /* Grand titre */
+      left: 20%;
+      bottom: 47%;
+      font-weight: bold;
+      font-family: 'Barlow';
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Ombre noire avec un flou de 5px */
+    }
+    .home-content-other {
+      display: flex;
+      justify-content: center; /* Centre horizontalement */
+      align-items: center;     /* Centre verticalement */
+      height: 100vh;           /* Prend toute la hauteur de la page */
+      width: 100vw;            /* Prend toute la largeur de la page */
+      position: relative;      /* Assure que l'élément prend tout l'espace */
+    }
+    
+    .home-content-other h1 {
+      color: white;
+      font-size: 10rem;
+      margin: 0; /* Enlève tout éventuel margin qui pourrait affecter le centrage */
+      text-align: center; /* Si le texte lui-même doit être centré */
+    }
+    
+    
+    
+    .home-content h1 {
+      position: absolute;
+      font-size: 15rem; /* Grand titre */
+      left: 20%;
+      bottom: 50%;
+      font-weight: bold;
+      font-family: 'Barlow';
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Ombre noire avec un flou de 5px */
+  
+    }
+  
+    .home-content h2 {
+      position: absolute;
+      font-size: 2rem;
+      font-family: 'Cabin';
+      bottom: 50%;
+      left: 20%;
+    }
+    
+  
+    .content-box p {
+      bottom: 43%;
+      color: white; /* Couleur du texte */
+      font-size: 0.9rem; /* Taille du texte */
+    }
+    
+  
+    .home-image img {
+      position: absolute;
+      max-width: 45%; /* Adapte la taille de l'image */
+      height: auto;
+      top:0%;
+      left: 40%;
+    }
+    
+  
+    .home-button {
+      font-family: 'Cabin';
+      position: absolute;
+      display: flex;
+      justify-content: space-around;
+      gap:20px;
+      bottom:40%;
+      left:20%;
+    }
+  
+    button {
+      outline: none;
+      cursor: pointer;
+      border: none;
+      padding: 0.9rem 2rem;
+      margin: 0;
+      font-family: inherit;
+      font-size: inherit;
+      position: relative;
+      display: inline-block;
+      letter-spacing: 0.05rem;
+      font-weight: 700;
+      font-size: 17px;
+      border-radius: 500px;
+      overflow: hidden;
+      background: white;
+      color: ghostwhite;
+     }
+     
+     button span {
+      position: relative;
+      z-index: 10;
+      transition: color 0.4s;
+     }
+     
+     button:hover span {
+      color: #cc0605;
+     }
+     
+     button::before,
+     button::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+     }
+     
+     button::before {
+      content: "";
+      background: #cc0605;
+      width: 120%;
+      left: -10%;
+      transform: skew(30deg);
+      transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+     }
+     
+     button:hover::before {
+      transform: translate3d(100%, 0, 0);
+     }
+     
+     
+    
+  
+  @font-face {
+      font-family: "Barlow";
+      src: url(../fonts/Barlow-Bold.ttf) format(truetype);
+  }
+  @font-face {
+      font-family: "Cabin";
+      src: url(../fonts/Cabin-Bold.ttf) format(truetype);
+  }
+  @font-face {
+      font-family: "Helvetica";
+      src: url(../fonts/HelveticaNeueLTPro-BlkCn.otf) format(opentype);
+  }
+  
+  .logo-nav{
+  float: left;
+  margin-left: 15%;
+  }
+  
+  .navbar ul{
+    margin-left: 50%;
+  align-items: center;
+  margin-top: -32px;
+  }
+  
+  .navbar {
+      width: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: rgba(255, 255, 255, 0); /* Transparent */
+      padding: 15px 0;
+      transition: background-color 0.3s ease; /* Transition pour l'effet de transparence */
+      z-index: 1000; /* Priorité haute pour la navbar */
+  }
+  
+  /* Lorsque l'utilisateur défile et que la classe 'scrolled' est active */
+  .navbar.scrolled {
+      background-color: #cc0605; /* Couleur de fond avec opacité */ 
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optionnel : ajouter une ombre */
+  }
+  
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Permet aux éléments de revenir à la ligne */
+  }
+  .navbar ul li {
+      margin: 0 20px;
+  }
+  
+  .navbar ul li a {
+    font-family: "Barlow";
+    text-decoration: none;
+    color: white;
+    font-size: 18px; /* Taille de police par défaut */
+    transition: color 0.3s ease, font-size 0.3s ease; /* Transition pour le changement de taille */
+  }
+  
+  .navbar ul li a:hover {
+      color: rgba(225, 222, 228, 0.938); /* Changement de couleur au survol */
+  }
+  
+  /* Effet d'opacité lorsqu'on défile */
+  body.scrolled .navbar {
+      background-color: rgba(255, 255, 255, 0.1); /* Légère opacité quand on scrolle */
+  }
+  
+  
+  /* ZOOM 140% */ 
+  @media (max-width: 1200px) {
+    #home {
+      flex-direction: column; /* Les éléments vont s'empiler verticalement */
+      text-align: center;
+    }
+    .navbar ul li a {
+        font-size: 16px; /* Réduction de la taille de police */
+    }
+    .navbar ul li {
+      margin: 0 10px; /* Ajuste l'espacement entre les éléments */
+    }
+    .home-content h1 {
+      font-size: 10rem;
+    }
+  
+    .home-content h2 {
+     font-size: 1rem;
+    }
+    .home-button button{
+      padding: 12px 12px 12px 12px;
+      font-size: 12px;
+      border-radius: 50px;
+    }
+  }
+  
+  /* ZOOM 180% */ 
+  @media (max-width: 900px) {
+    .navbar ul li a {
+      font-size: 14px; /* Réduction de la taille de police */
+  }
+  .navbar ul li {
+    margin: 0 6px; /* Ajuste l'espacement entre les éléments */
+  }
+  .home-image img {
+    max-width: 45%;
+  }
+  
+  .home-content h1 {
+    font-size: 6.1rem;
+  }
+  
+  .home-content h2 {
+   font-size: 0.8rem;
+  }
+  
+  .home-button button{
+    padding: 5px 5px 5px 5px;
+    font-size: 5px ;
+    border-radius: 50px;
+  }
+  
+  }
+  
+  /*FOOTER*/
+  footer{
+    font-family: 'Cabin';
+    margin-top: 250px;
+    background: #cc0605;
+    color: white;
+    position: relative;
+    font-size: 16px;
+    ;
+  }
+  footer img{
+    width: 250px;
+    margin-top: 43px;
+  }
+  footer iframe{
+    height: 250px;
+    width: 250px;
+    margin-top: 43px;
+  }
+  footer span{
+    margin-top: 25px;
+  }
+  footer h6{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-top: 50px;
+  }
+  footer .col-3{
+    padding-left: 35px;
+  }
+  footer a{
+    text-decoration: none;
+    transition: 0.5s;
+    color: white;
+  }
+  footer a:hover{
+    color: #f5871f;
+  }
+  footer .fa-whatsapp{
+    margin-right: 5px;
+  }
+  .copyright{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    height: 45px;
+    background-color: #cc0605;
+    padding-top: 15px;
+  }
+  .footer-container{
+    display: flex;
+    justify-content: center;
+  }
+  .social {
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    padding-left: 5px;
+  }
+  .social i {
+    color: #fff;
+    font-size: 17px;
+    margin-right: 15px;
+  }
+  @media only screen and (max-width: 600px) {
+    footer .col-3{
+     padding-left:0;
+  }
+  .footer-container{
+      flex-direction: column;
+  }
+  .footer-container .col-3{
+      width: 100% !important;
+  }
+  .copyright {
+        font-size: 11px;
+    }
+  }
+     
+  
+  /* PARTIE FORMAT TELEPHONE */
+  
+  
+  /* ZOOM 260% */ 
+  @media (max-width: 600px) {
+    .navbar ul li a {
+      font-size: 12px; /* Réduction de la taille de police */
+  }
+  .navbar ul li {
+    margin: 0 4px; /* Ajuste l'espacement entre les éléments */
+  }
+  .home-image img {
+    max-width: 40%;
+    left:50%;
+  }
+  .home-content h1 {
+    font-size: 5rem;
+  }
+  
+  .home-content h2 {
+   font-size: 0.7rem;
+  }
+  }
+  
+  /* ZOOM 300% */ 
+  @media (max-width: 550px) {
+    .navbar ul li a {
+      font-size: 7px; /* Réduction de la taille de police */
+  }
+  .navbar ul li {
+    margin: 0 3px; /* Ajuste l'espacement entre les éléments */
+  }
+  .home-content h1 {
+    font-size: 3.5rem;
+  }
+  
+  .home-content h2 {
+   font-size: 0.6rem;
+  }
+  }
+  
+  /* ZOOM 450% */ 
+  @media (max-width: 350px) {
+    .navbar ul li a {
+      font-size: 5px; /* Réduction de la taille de police */
+  }
+  .navbar ul li {
+    margin: 0 2px; /* Ajuste l'espacement entre les éléments */
+  }
+  }
+  
+  @media screen and (max-width: 768px) {
+    #home {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .home-content {
+      max-width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .home-content h1 {
+      font-size: 2rem;
+    }
+    
+    .home-content h2 {
+     font-size: 0.4rem;
+    }
+  }
