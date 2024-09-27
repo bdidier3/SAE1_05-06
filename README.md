@@ -65,5 +65,6 @@ Le projet est un site web présentant l'entreprise SFR. Ce-dernier comporte une 
 
 [w3c Page support FAQ]([)](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbdidier3.github.io%2FSAE1_05-06%2Fsupport_faq.html)
 
-![Image montrant un check positif w3c pour la page support FAQ](![image](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbdidier3.github.io%2FSAE1_05-06%2Fsupport_faq.html)
+![Image montrant un check positif w3c pour la page support FAQ](![image](![image](https://github.com/user-attachments/assets/4629732b-512b-41e6-818e-bcc6d3b1255a)
+)
 
