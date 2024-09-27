@@ -38,8 +38,13 @@ html, body, section {
   
   /* SCROLL*/
   
-  
+
+
  
+ 
+
+
+
   /* Ma partie*/
   
   * {
@@ -75,16 +80,55 @@ html, body, section {
   }
   
   .slide1>ul{
-  
     margin-left: 150px;
     scale: 0.3;
 margin-top: 200px;
     position: absolute;
-    color: rgb(203, 198, 198);
+    text-decoration: none;
     scale: 0.5;
-   
   }
+
   
+/* HOVER POUR LA LISTE SLIDE 1 */
+
+
+
+.slide1>li {
+  margin-bottom: 30px; /* Ajoute un espace entre chaque élément de la liste */
+  text-decoration: none;
+  color: white;
+}
+
+.slide1>li:hover {
+  background-color: #f0f0f0; /* Change le fond sur le hover */
+  transform:scale(1.2); /* Agrandit l'élément au survol */
+}
+
+.slide1>li:nth-child(1):hover {
+  background-color: #e0f7fa; /* Couleur spécifique pour le premier élément */
+}
+
+.slide1>li:nth-child(2):hover {
+  background-color: #ffe082; /* Couleur spécifique pour le deuxième élément */
+}
+
+.slide1>li:nth-child(3):hover {
+  background-color: #c5e1a5; /* Couleur spécifique pour le troisième élément */
+}
+
+.slide1>li:nth-child(4):hover {
+  background-color: #ffab91; /* Couleur spécifique pour le quatrième élément */
+}
+
+
+
+a:hover {
+  color: #000; /* Change la couleur du texte au survol */
+}
+
+
+/* HOVER POUR LA LISTE SLIDE 1 */
+
   .slide1>img{
     position: relative;
   margin-top: 100px;
@@ -97,9 +141,9 @@ margin-top: 200px;
   
   
   .slide2>h3{
-    margin-top: 250px;
+    margin-top: 15%;
     color: rgb(19, 18, 18);
-  margin-left: 850px;
+  margin-left: 55%;
   display: flex;
   text-align: center;
   }
@@ -107,10 +151,9 @@ margin-top: 200px;
     border: solid;
     text-align: center;
     scale: 0.5;
-    
-    position: absolute;
-    margin-right: 400px;
-    margin-top: 200px;
+   position:absolute;
+    margin-right: 30%;
+    margin-top: 12%;
     color: rgb(14, 14, 14);
   }
   
@@ -119,18 +162,18 @@ margin-top: 200px;
   
   
   .slide3>h3{
-    margin-top: 250px;
+    margin-top: 20%;
     color: rgb(231, 222, 222);
-  margin-right: 900px;
+  margin-right: 40%;
   text-align: center;
   }
   .slide3>h4{
     border: solid;
     text-align: center;
     scale: 0.5;
-    margin-top: 200px;
+    margin-top: 12%;
     position: absolute;
-    margin-left: 350px;
+    margin-left: 45%;
     color: rgb(14, 14, 14);
     color: white;
   }
@@ -139,18 +182,18 @@ margin-top: 200px;
   
   
   .slide4>h3{
-    margin-top: 250px;
+    margin-top: 15%;
     color: rgb(19, 18, 18);
-  margin-left: 900px;
+  margin-left: 55%;
   display: flex;
   }
   .slide4>h4{
     border: solid;
     text-align: center;
     scale: 0.5;
-    margin-top: 200px;
+    margin-top: 12%;
     position: absolute;
-    margin-right: 400px;
+    margin-right: 30%;
     color: rgb(14, 14, 14);
   }
   
@@ -481,7 +524,8 @@ margin-top: 200px;
     color: white;
     position: relative;
     font-size: 16px;
-    ;
+    color: white;
+    
   }
   footer img{
     width: 250px;
@@ -508,6 +552,7 @@ margin-top: 200px;
   }
   footer .col-3{
     padding-left: 35px;
+    
   }
   footer a{
     text-decoration: none;
