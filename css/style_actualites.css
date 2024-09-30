@@ -81,10 +81,11 @@ html, body, section {
   }
   
   .slide1>ul{
-    margin-left: -7%;
-margin-top: 15%;
+    margin-left: -9%;
+margin-top: 12%;
    position: absolute;
     scale: 0.6;
+    
     
   }
 
@@ -93,13 +94,14 @@ li>a{
 color: black;
 margin-bottom: 30px;
 
+
 }
 
 
 .slide1>img{
   position: relative;
 margin-top: 100px;
-  margin-left: 175px;
+  margin-left: 20%;
 margin-bottom: -10px;
 }
 
@@ -107,6 +109,15 @@ li {
   color: #000;
   position: relative;
   text-decoration: none;
+}
+
+.sommaire>li {
+
+  border: solid;
+  border-radius: 20px;
+  
+  border-width: 10px;
+
 }
 
 
@@ -552,12 +563,13 @@ li:hover::before {
   /*FOOTER*/
   footer{
     font-family: 'Cabin';
-    margin-top: 250px;
+    margin-top: 25%;
     background: #cc0605;
     color: white;
     position: relative;
     font-size: 16px;
     color: white;
+    width: 100%;
     
   }
   footer img{
