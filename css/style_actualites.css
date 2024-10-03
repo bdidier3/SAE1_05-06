@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 /* SCROLL*/
 html, body, section {
@@ -52,7 +52,7 @@ html, body, section {
       padding: 0;
       box-sizing: border-box;
       text-decoration: none;
-      font-family:;
+      font-family: 'Poppins', sans-serif;
   }
   
   body {
@@ -72,7 +72,7 @@ html, body, section {
     scale: 1.6;
     display: flex;
     margin-left: 200px;
-    margin-top: 17%;
+    margin-top: 14%;
     color: rgb(217, 210, 210);
 
     -webkit-text-stroke-width: 1px;
@@ -81,19 +81,17 @@ html, body, section {
   }
   
   .slide1>ul{
-    margin-left: -9%;
-margin-top: 12%;
+    margin-left: -14%;
+margin-top: 9%;
    position: absolute;
-    scale: 0.6;
-    
-    
-  }
+    scale: 0.5;
 
+  }
 
 li>a{
 color: black;
 margin-bottom: 30px;
-
+display: none;
 
 }
 
@@ -105,63 +103,75 @@ margin-top: 100px;
 margin-bottom: -10px;
 }
 
-li {
-  color: #000;
-  position: relative;
-  text-decoration: none;
-}
 
-.sommaire>li {
 
-  border: solid;
-  border-radius: 20px;
-  
-  border-width: 10px;
-
-}
 
 
 /* HOVER POUR LA LISTE SLIDE 1 */
 
-body a:hover{
- 
-  line-height: 1.1em;
-  padding-bottom: calc(2.1 * var(--s));
-  background: conic-gradient(from 135deg at top, var(--c) 90deg, #0000 0) left 0
-      bottom var(--s) / calc(2 * var(--s)) var(--s) repeat-x,
-    conic-gradient(from -45deg at bottom, var(--c) 90deg, #0000 0) left var(--s)
-      bottom 0 / calc(2 * var(--s)) var(--s) repeat-x;
-  -webkit-mask: linear-gradient(#000 0 0) content-box,
-    linear-gradient(#000 0 0) 0 / var(--_p, 0%) padding-box no-repeat;
-  transition: 0.5s;
-}
-.slide1>li:hover {
-  --_p: 100%;
-  color: var(--c);
+.home-button {
+  font-family: 'Cabin';
+  display: flex;
+  justify-content: space-around;
+  gap:20px;
+  bottom:40%;
+  left:20%;
 }
 
-
-
-.sommaire>li::before {
-  background: hsl(0, 0%, 100%);
-  content: "";
-  inset: 0;
-  position: absolute;
-  transform: scaleX(0);
-  transform-origin: right;
-  transition: transform 0.5s ease-in-out;
-  z-index: -1;
-}
-
-li:hover::before {
-  transform: scaleX(1);
-  transform-origin: left;
-}
-
-
-
-
+a.button {
+  scale: 3;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  padding: 0.9rem 2rem;
+margin-left: 500px;
+  font-family: inherit;
+  font-size: inherit;
+  position: relative;
+  display: inline-block;
+  letter-spacing: 0.05rem;
+  font-weight: 700;
+  font-size: 17px;
+  border-radius: 500px;
+  overflow: hidden;
+  background: rgb(239, 9, 9);
+  color: rgb(255, 255, 255)8);
   
+ }
+ 
+ a.button span {
+  position: relative;
+  z-index: 10;
+  transition: color 0.4s;
+ }
+ 
+ a.button:hover span {
+  color: #ffffff;
+ }
+ 
+ a.button::before,
+ a.button::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+ }
+ 
+ a.button::before {
+  content: "";
+  background: #ffffff;
+  width: 120%;
+  left: -10%;
+  transform: skew(30deg);
+  transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+ }
+ 
+ a.button:hover::before {
+  transform: translate3d(100%, 0, 0);
+ }
 /* HOVER POUR LA LISTE SLIDE 1 */
 
 
