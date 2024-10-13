@@ -10,72 +10,10 @@
 
 body {
   margin: auto;
-  overflow: auto;
-  background: linear-gradient(315deg, rgba(255, 0, 0, 0.582) 3%, rgb(109, 85, 85) 38%, rgb(165, 165, 165) 68%, rgba(255,25,25,1) 98%);
-  animation: gradient 15s ease infinite;
-  background-size: 400% 400%;
-  background-attachment: fixed;
+  
 }
 
-@keyframes gradient {
-  0% {
-      background-position: 0% 0%;
-  }
-  50% {
-      background-position: 100% 100%;
-  }
-  100% {
-      background-position: 0% 0%;
-  }
-}
 
-.wave {
-  background: rgb(255 255 255 / 25%);
-  border-radius: 1000% 1000% 0 0;
-  position: fixed;
-  width: 200%;
-  height: 12em;
-  animation: wave 10s -3s linear infinite;
-  transform: translate3d(0, 0, 0);
-  opacity: 0.8;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-}
-
-.wave:nth-of-type(2) {
-  bottom: -1.25em;
-  animation: wave 18s linear reverse infinite;
-  opacity: 0.8;
-}
-
-.wave:nth-of-type(3) {
-  bottom: -2.5em;
-  animation: wave 20s -1s reverse infinite;
-  opacity: 0.9;
-}
-
-@keyframes wave {
-  2% {
-      transform: translateX(1);
-  }
-
-  25% {
-      transform: translateX(-25%);
-  }
-
-  50% {
-      transform: translateX(-50%);
-  }
-
-  75% {
-      transform: translateX(-25%);
-  }
-
-  100% {
-      transform: translateX(1);
-  }
-}
 
 #home {
   display: flex;
@@ -90,15 +28,163 @@ body {
 
 } 
 
+@keyframes animate {
+  0%{
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+      border-radius: 0;
+  }
+  100%{
+      transform: translateY(-1000px) rotate(720deg);
+      opacity: 0;
+      border-radius: 50%;
+  }
+}
+
+
+.background li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  animation: animate 19s linear infinite;
+}
+
+
+
+
+.background li:nth-child(0) {
+  left: 4%;
+  width: 175px;
+  height: 175px;
+  bottom: -175px;
+  animation-delay: 1s;
+}
+.background li:nth-child(1) {
+  left: 4%;
+  width: 173px;
+  height: 173px;
+  bottom: -173px;
+  animation-delay: 3s;
+}
+.background li:nth-child(2) {
+  left: 45%;
+  width: 189px;
+  height: 189px;
+  bottom: -189px;
+  animation-delay: 3s;
+}
+.background li:nth-child(3) {
+  left: 10%;
+  width: 124px;
+  height: 124px;
+  bottom: -124px;
+  animation-delay: 2s;
+}
+.background li:nth-child(4) {
+  left: 25%;
+  width: 155px;
+  height: 155px;
+  bottom: -155px;
+  animation-delay: 14s;
+}
+.background li:nth-child(5) {
+  left: 74%;
+  width: 126px;
+  height: 126px;
+  bottom: -126px;
+  animation-delay: 25s;
+}
+.background li:nth-child(6) {
+  left: 42%;
+  width: 128px;
+  height: 128px;
+  bottom: -128px;
+  animation-delay: 30s;
+}
+.background li:nth-child(7) {
+  left: 79%;
+  width: 145px;
+  height: 145px;
+  bottom: -145px;
+  animation-delay: 1s;
+}
+.background li:nth-child(8) {
+  left: 85%;
+  width: 158px;
+  height: 158px;
+  bottom: -158px;
+  animation-delay: 6s;
+}
+.background li:nth-child(9) {
+  left: 45%;
+  width: 196px;
+  height: 196px;
+  bottom: -196px;
+  animation-delay: 12s;
+}
+
 #timeline{
-  color: #fff;
+  color: #ffffff;
+  
+}
+
+#timeline>h1{
+  color: black;
 }
 
 #home-page2 h1{
-  font-family: 'Cabin';
   color:white;
   font-size: 7rem;
+  font-family: 'Poppins', sans-serif;
 }
+
+#home-page2{
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background: #f71d1d;
+  overflow: hidden;
+}
+
+
+#txt-createur{
+  margin-right: 25%;
+  margin-left: 5%;
+}
+
+#imgalain{
+  position: absolute;
+  top: 970px;
+  left: 77%;
+  border-radius: 100%;
+}
+
+.txt{
+  background-color: #981313;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  transition: background-color 2s;
+  transition: color 1s;
+}
+
+#maintenant{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+ 
+
+.txt:hover{
+  background-color: #fff;
+  color: black;
+
+}
+
 .titre-page2 {
   display: flex;
   justify-content: center; /* Centre horizontalement */
@@ -107,6 +193,33 @@ body {
   width: 100vw;            /* Prend toute la largeur de la fenêtre */
 }
 
+#home2-page2 h1,
+#timeline h1
+{
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #cc0609 0%,
+    #cc0609 29%,
+    #cc0601 67%,
+    #525252 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 210% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  font-size: 25px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
 
 h1 {
   text-align: center;
