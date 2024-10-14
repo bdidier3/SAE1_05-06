@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
+*{
+  font-family: 'Cabin';
+
+}
+
+
 /* SCROLL*/
 html, body, section {
     block-size: 100%;
@@ -194,13 +200,15 @@ html, body, section {
 margin-top: 5%;
    position: absolute;
  margin-left: -10vw;
-    scale: 0.4;
+    scale: 0.45;
+    
 
   }
 
 li>a{
 color: black;
 margin-bottom: 30px;
+
 
 }
 
@@ -224,6 +232,7 @@ display: block;
 
 .home-button {
   font-family: 'Poppins', sans-serif;
+  
   display: flex;
   justify-content: space-around;
   gap:20px;
@@ -328,7 +337,7 @@ margin-left: 500px;
   .slide3>h2{
     margin-top: 18%;
     max-width: 50vw;
-    font-size: 4vw;
+    font-size: 5vw;
     color: rgb(247, 240, 240);
   margin-left: 10vw;
   text-align: center;
@@ -376,7 +385,7 @@ margin-left: 500px;
   .slide4>h3{
     margin-top: 22%;
     color: rgb(19, 18, 18);
-    font-size: 6vw;
+    font-size: 5vw;
   margin-left: 60%;
   display: flex;
   text-align: center;
