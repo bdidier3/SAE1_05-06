@@ -6,6 +6,7 @@
 - 🏷️ [Membres du groupe](#membres-du-groupe)
 - 🪧 [Présentation du projet](#présentation-du-projet)
 - 💼 [Contribution au projet](#contribution-au-projet)
+- 👨‍💼 [Répartition du projet](#répartition-du-projet)
 - 🌱 [Impact écologique du projet](#impact-écologique-du-projet)
 
 ## Lien du site
@@ -71,6 +72,8 @@ Le projet est un site web présentant l'entreprise SFR. Ce-dernier comporte une 
 
 
 # Contribution au projet
+
+# Répartition du projet
 
 # Impact écologique du projet
 
