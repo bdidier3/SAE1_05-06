@@ -156,6 +156,10 @@ body {
 #txt-createur{
   margin-right: 25%;
   margin-left: 20%;
+  background-color: #f9f9f9; /* Couleur de fond de la section */
+  padding: 20px; /* Espace intérieur de la section */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
 }
 
 #imgalain{
@@ -176,6 +180,10 @@ body {
 #maintenant{
   margin-left: 25%;
   margin-right: 25%;
+  background-color: #f9f9f9; /* Couleur de fond de la section */
+  padding: 20px; /* Espace intérieur de la section */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
 }
  
 
