@@ -6,11 +6,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+
+}
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     height: 100%;
+    background-color: #f7f7f7;
 }
 
 #home {
@@ -38,7 +43,7 @@ body {
 }
 
 #home-2 {
-    background-color: aliceblue;
+    background: url("");
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -101,7 +106,7 @@ body, html {
   .home-content h2 {
     position: absolute;
     font-size: 2rem;
-    font-family: 'Cabin';
+    font-family: 'Poppins_Bold';
     bottom: 50%;
     left: 20%;
   }
@@ -124,7 +129,7 @@ body, html {
   
 
   .home-button {
-    font-family: 'Cabin';
+    font-family: 'Poppins_Bold';
     position: absolute;
     display: flex;
     justify-content: space-around;
@@ -395,7 +400,11 @@ body, html {
     border-radius: 0 calc(var(--dateH) / 2) calc(var(--dateH) / 2) 0;
   }
 }    
-  
+
+@font-face {
+  font-family: "Poppins_Bold";
+  src: url(../fonts/poppins/Poppins-Bold.ttf) format(truetype);
+}
 
 @font-face {
     font-family: "Barlow";
@@ -410,62 +419,6 @@ body, html {
     src: url(../fonts/HelveticaNeueLTPro-BlkCn.otf) format(opentype);
 }
 
-.logo-nav{
-float: left;
-margin-left: 15%;
-}
-
-.navbar ul{
-  margin-left: 50%;
-align-items: center;
-margin-top: 10px;
-}
-
-.navbar {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: rgba(255, 255, 255, 0); /* Transparent */
-    padding: 15px 0;
-    transition: background-color 0.3s ease; /* Transition pour l'effet de transparence */
-    z-index: 1000; /* Priorité haute pour la navbar */
-}
-
-/* Lorsque l'utilisateur défile et que la classe 'scrolled' est active */
-.navbar.scrolled {
-    background-color: #cc0605; /* Couleur de fond avec opacité */ 
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optionnel : ajouter une ombre */
-}
-
-
-.navbar ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap; /* Permet aux éléments de revenir à la ligne */
-}
-.navbar ul li {
-    margin: 0 20px;
-}
-
-.navbar ul li a {
-  font-family: "Barlow";
-  text-decoration: none;
-  color: white;
-  font-size: 18px; /* Taille de police par défaut */
-  transition: color 0.3s ease, font-size 0.3s ease; /* Transition pour le changement de taille */
-}
-
-.navbar ul li a:hover {
-    color: rgba(225, 222, 228, 0.938); /* Changement de couleur au survol */
-}
-
-/* Effet d'opacité lorsqu'on défile */
-body.scrolled .navbar {
-    background-color: rgba(255, 255, 255, 0.1); /* Légère opacité quand on scrolle */
-}
-
 
 /* ZOOM 140% */ 
 @media (max-width: 1200px) {
@@ -473,12 +426,7 @@ body.scrolled .navbar {
     flex-direction: column; /* Les éléments vont s'empiler verticalement */
     text-align: center;
   }
-  .navbar ul li a {
-      font-size: 16px; /* Réduction de la taille de police */
-  }
-  .navbar ul li {
-    margin: 0 10px; /* Ajuste l'espacement entre les éléments */
-  }
+  
   .home-content h1 {
     font-size: 10rem;
   }
@@ -495,12 +443,6 @@ body.scrolled .navbar {
 
 /* ZOOM 180% */ 
 @media (max-width: 900px) {
-  .navbar ul li a {
-    font-size: 14px; /* Réduction de la taille de police */
-}
-.navbar ul li {
-  margin: 0 6px; /* Ajuste l'espacement entre les éléments */
-}
 .home-image img {
   max-width: 45%;
 }
@@ -608,6 +550,100 @@ footer .fa-whatsapp{
       font-size: 11px;
   }
 }
+
+nav.scrolled {
+  background-color: red;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+
+}
+
+
+/* Sidenav menu */
+nav {
+  transition: background-color 0.3s ease;
+
+    width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%; /* S'étend sur toute la largeur */
+    z-index: 1000; /* S'assure qu'elle reste au-dessus des autres éléments */
+    
+}
+
+#mySidenav{
+  font-family: 'Poppins_Bold';
+}
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -250px;
+    background-color: #e60000;
+    padding-top: 60px;
+    transition: left 0.5s ease;
+  }
+  
+  /* Sidenav menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #111;
+  }
+  
+  .sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Active class */
+  .sidenav.active {
+    left: 0;
+  }
+  
+  /* Close btn */
+  .sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  /* Icône burger */
+  .burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 0.8%;
+  }
+
+  #openBtn span:hover {
+    background-color: #e60000;
+  }
+  .burger-icon:hover span:nth-child(1) {
+    background-color: #e60000;
+}
+
+.burger-icon:hover span:nth-child(2) {
+    background-color: #e60000;
+}
+
+.burger-icon:hover span:nth-child(3) {
+    background-color: #e60000;
+}
    
 
 /* PARTIE FORMAT TELEPHONE */
@@ -615,12 +651,6 @@ footer .fa-whatsapp{
 
 /* ZOOM 260% */ 
 @media (max-width: 600px) {
-  .navbar ul li a {
-    font-size: 12px; /* Réduction de la taille de police */
-}
-.navbar ul li {
-  margin: 0 4px; /* Ajuste l'espacement entre les éléments */
-}
 .home-image img {
   max-width: 40%;
   left:50%;
@@ -636,28 +666,12 @@ footer .fa-whatsapp{
 
 /* ZOOM 300% */ 
 @media (max-width: 550px) {
-  .navbar ul li a {
-    font-size: 7px; /* Réduction de la taille de police */
-}
-.navbar ul li {
-  margin: 0 3px; /* Ajuste l'espacement entre les éléments */
-}
 .home-content h1 {
   font-size: 3.5rem;
 }
 
 .home-content h2 {
  font-size: 0.6rem;
-}
-}
-
-/* ZOOM 450% */ 
-@media (max-width: 350px) {
-  .navbar ul li a {
-    font-size: 5px; /* Réduction de la taille de police */
-}
-.navbar ul li {
-  margin: 0 2px; /* Ajuste l'espacement entre les éléments */
 }
 }
 
@@ -678,5 +692,153 @@ footer .fa-whatsapp{
   
   .home-content h2 {
    font-size: 0.4rem;
+  }
+}
+
+/* PAGE ABOUT*/
+
+#about-us {
+  background-color: #f7f7f7;
+  padding: 50px 20px;
+  font-family: Arial, sans-serif;
+}
+
+#about-us .container-client {
+  font-family: 'Poppins_Bold';
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: start;
+}
+
+
+#about-us h2 {
+  margin-top: 10%;
+  font-size: 36px;
+  color: #181818; /* Couleur rouge SFR */
+  margin-bottom: 20px;
+}
+
+#about-us p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+#about-us strong {
+  color: #e60000; /* Mettre en valeur avec le rouge de SFR */
+}
+
+/* SECTION CARD */
+.cards-section {
+  font-family: 'Poppins_Bold';
+  
+  margin: 15%;
+  background-color: #f7f7f7;
+  display: flex;
+  gap: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card h2 {
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.card p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.button-card {
+  text-decoration: none;
+  background-color: #cc0605;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.button-card:hover {
+  background-color: #cc0605;
+}
+
+/* SECTION PARTNER */
+
+/* Style pour la section client */
+.client {
+  padding: 50px 0; /* Ajoute un peu de marge verticale */
+  background-color: #f9f9f9; /* Couleur de fond de la section */
+}
+
+.container-about{
+  font-family: 'Poppins_Bold';
+
+  max-width: 1000px; /* Limite la largeur maximale */
+  margin: 0 auto; /* Centre le conteneur */
+  padding: 0 15px; /* Ajoute des marges internes */
+
+}
+/* Style pour le conteneur */
+.container-client{
+  font-family: 'Poppins_Bold';
+
+  max-width: 1200px; /* Limite la largeur maximale */
+  margin: 0 auto; /* Centre le conteneur */
+  padding: 0 15px; /* Ajoute des marges internes */
+}
+
+/* Titre de la section */
+.section-title {
+  text-align: center; /* Centre le titre */
+  margin-bottom: 30px; /* Ajoute un espace en bas du titre */
+}
+
+/* Style pour le carrousel */
+.carousel-client {
+  display: flex; /* Utilise Flexbox pour l'affichage horizontal */
+  overflow: hidden; /* Masque la barre de défilement */
+  flex-wrap: wrap; /* Permet aux images de passer à la ligne suivante si l'espace est trop petit */
+}
+
+/* Style pour chaque diapositive */
+.carousel-inner {
+  display: flex; /* Affiche les diapositives côte à côte */
+  flex-wrap: wrap; /* Permet aux diapositives de passer à la ligne */
+}
+
+/* Style pour chaque image */
+.slide {
+  flex: 1 1 200px; /* Permet aux images de s'étendre et de se contracter, largeur minimale de 200px */
+  margin-right: 33px; /* Espace entre les images */
+  box-sizing: border-box; /* Inclut le padding et la bordure dans la largeur totale */
+}
+
+.slide img {
+  max-width: 100%; /* Assure que l'image ne dépasse pas la largeur de son conteneur */
+  height: auto; /* Conserve les proportions de l'image */
+  display: block; /* Supprime l'espace blanc sous les images */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .slide {
+      margin-right: 10px; /* Réduit l'espace entre les images sur les petits écrans */
   }
 }
