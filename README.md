@@ -5,6 +5,8 @@
 - 📝 [Lien du Site](#lien-du-site)
 - 🏷️ [Membres du groupe](#membres-du-groupe)
 - 🪧 [Présentation du projet](#présentation-du-projet)
+- 💼 [Contribution au projet](#contribution-au-projet)
+- 🌱 [Impact écologique du projet](#impact-écologique-du-projet)
 
 ## Lien du site
 [SAE-S1.-05-06](https://bdidier3.github.io/SAE1_05-06/index.html)
@@ -64,6 +66,12 @@ Le projet est un site web présentant l'entreprise SFR. Ce-dernier comporte une 
 **Auteur : Baptiste DIDIER**
 
 [w3c Page support FAQ](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbdidier3.github.io%2FSAE1_05-06%2Fsupport_faq.html)
+
+# Contribution au projet
+
+# Impact écologique du projet
+
+
 
 ![Image montrant un check positif w3c pour la page économie](![image](![image](https://github.com/user-attachments/assets/71b6a859-9acf-450b-af8b-e8de61ed49bc)
 
