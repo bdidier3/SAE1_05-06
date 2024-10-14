@@ -14,10 +14,10 @@
 
 ## Membres du groupe :
 
-Etudiant 1 (référent du groupe) :  [FIGINI Ethan](ethan.figini@edu.univ-fcomte.fr)  
-Etudiant 2 : [DIDIER Baptiste](baptiste.didier@edu.univ-fcomte.fr)   
-Etudiant 3 : [DUARTE Antoine](antoine.duarte@edu.univ-fcomte.fr)  
-Etudiant 4 : [DEMOLY Mathis](mathis.demoly@edu.univ-fcomte.fr)  
+Etudiant 1 (référent du groupe) :  [FIGINI Ethan](mailto:ethan.figini@edu.univ-fcomte.fr)  
+Etudiant 2 : [DIDIER Baptiste](mailto:baptiste.didier@edu.univ-fcomte.fr)   
+Etudiant 3 : [DUARTE Antoine](mailto:antoine.duarte@edu.univ-fcomte.fr)  
+Etudiant 4 : [DEMOLY Mathis](mailto:mathis.demoly@edu.univ-fcomte.fr)  
 
 # Présentation du projet
 
