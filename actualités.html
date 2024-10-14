@@ -10,24 +10,80 @@
 
 <body>
 
-    <header>
-        <nav class="navbar">
+  <header>
+    <nav class="navbar">
+        <div id="mySidenav" class="sidenav">
+            <a id="closeBtn" href="#" class="close">×</a>
 
-            <img class="logo-nav" src="images/logo.svg" width="50" height="50" alt="Logo du Site">
-                  
-
-                <ul>
-                
-                    <li><a href="index.html">Accueil</a></li>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
                 <li><a href="histoire.html">Histoire</a></li>
                 <li><a href="actualités.html">Actualités</a></li>
                 <li><a href="economie.html">Economie</a></li>
                 <li><a href="support_faq.html">Support FAQ</a></li>
-                </ul>
+            </ul>
 
-        </nav>
-    
-    </header>
+        </div>
+
+        <!-- Icône burger pour ouvrir la barre latérale -->
+        <a href="#" id="openBtn">
+            <span class="burger-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+
+              
+            </span>
+        </a>
+
+        <script>
+           
+    var sidenav = document.getElementById("mySidenav");
+    var openBtn = document.getElementById("openBtn");
+    var closeBtn = document.getElementById("closeBtn");
+    var nav = document.querySelector("nav");
+
+    openBtn.onclick = openNav;
+    closeBtn.onclick = closeNav;
+
+    // Ouvrir le menu latéral
+    function openNav() {
+        sidenav.classList.add("active");
+        nav.classList.remove("scrolled"); // Désactiver la barre de navigation
+        window.removeEventListener("scroll", onScroll); // Désactiver le scroll event
+    }
+
+    // Fermer le menu latéral
+    function closeNav() {
+        sidenav.classList.remove("active");
+        window.addEventListener("scroll", onScroll); // Réactiver le scroll event
+    }
+
+    // Fonction pour gérer le scroll
+    function onScroll() {
+        if (window.scrollY > 100) {
+            nav.classList.add("scrolled");
+        } else {
+            nav.classList.remove("scrolled");
+        }
+    }
+
+    // Ajouter l'écouteur d'événements pour le scroll au chargement
+    window.addEventListener("scroll", onScroll);
+
+    // Empêche le comportement par défaut du lien pour le bouton burger
+    openBtn.onclick = function(event) {
+        event.preventDefault();  // Empêche le comportement par défaut du lien
+        openNav();
+    };
+
+    closeBtn.onclick = function(event) {
+        event.preventDefault();  // Empêche le comportement par défaut du lien
+        closeNav();
+    };
+        </script>
+    </nav>
+</header>
 
 
     <ul class="background">
@@ -43,14 +99,7 @@
       <li></li>
    </ul>
 
-    <div class="d-flex flex-column justify-content-center w-100 h-100">
-
-        <div class="d-flex flex-column justify-content-center align-items-center">
-           
-          
-           
-        </div>
-    </div>
+   
     </div>
 
     <section class="slide1">
@@ -84,15 +133,16 @@
       
       
       
-      
+    
       <section class="slide2">
       <a id="slide2"></a>
+      
         <h3>Expansion de la 5G : SFR couvre 80% du territoire français</h3>
       <h4> SFR continue d'étendre son réseau 5G, atteignant une couverture de 80% du territoire. 
       Accélérant ainsi l'accès à l'Internet à haut débit pour ses abonnés. </h4>
         <img src="./images/carte.png" alt="carte">
 
-
+      
         
         
     </section>
@@ -102,11 +152,11 @@
       
       
       <section class="slide3">
-        <h3>SFR lance des offres écoresponsables</h3>
+        <h2>SFR lance <br> des  offres<br> écoresponsables!</h2>
         <h4> L'opérateur propose désormais des forfaits avec des téléphones reconditionnés, promouvant un usage plus durable des technologies.</h4>
         <a id="slide3"></a>
 
-
+        <img src="./images/sfr_recondi.png" alt="carte">
 
       </section>
       
@@ -116,7 +166,7 @@
       
       <section class="slide4">
         <h3>APPLE <br> Iphone 16</h3>
-        <h4> APPLE Débarque chez SFR ! Profitez des fabuleux nouveau Iphone 16 et Iphone 16 PRO</h4>
+        <h4> APPLE Débarque chez SFR ! Profitez des fabuleux nouveaux Iphone 16 et Iphone 16 PRO</h4>
         <a id="slide4"></a>
 
         <div class='fiches'>
