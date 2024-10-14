@@ -7,80 +7,204 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    height: 100%;
-}
-
-.contenu{
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    font-size: 20px;
-    justify-content: space-between;
+html, body {
+  overflow-x: hidden; /* Désactive le scroll horizontal */
+  margin: 0; /* S'assurer qu'il n'y a pas de marges non désirées */
+  padding: 0; /* Supprime tout padding */
+  scroll-behavior: smooth;
 }
 
 
-#home {
-    display: flex;
-    justify-content: space-between;
-    background: url("../images/fond.jpeg");
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-attachment: relative; 
-    height: 100vh; 
-    flex-wrap: wrap;
-  
-  } 
+@keyframes animate {
+  0%{
+      transform: translateY(0) rotate(0deg);
+      opacity: 1;
+      border-radius: 0;
+  }
+  100%{
+      transform: translateY(-1000px) rotate(720deg);
+      opacity: 0;
+      border-radius: 50%;
+  }
+}
 
-  #home-page2 {
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(30, 30, 87);
-    /*background: url("../images/fond.jpeg");*/
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-attachment: relative; 
-    height: 100vh; 
-    flex-wrap: wrap;
-  }
-  #home-page2 h1{
-    font-family: 'Cabin';
-    color:white;
-    font-size: 7rem;
-  }
-  .titre-page2 {
-    display: flex;
-    justify-content: center; /* Centre horizontalement */
-    align-items: center;     /* Centre verticalement */
-    height: 100vh;           /* Prend toute la hauteur de la fenêtre */
-    width: 100vw;            /* Prend toute la largeur de la fenêtre */
-  }
-  
-  
-  h1 {
-    text-align: center;
-  }
-  
- ul {
-    --row-gap: 2rem;
-    --line-w: 0.25rem;
-    display: grid;
-    grid-template-columns: var(--line-w) 1fr;
-    grid-auto-columns: max-content;
-    column-gap: var(--col-gap);
-    list-style: none;
-    margin-inline: auto;
-  }
+.background {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  background: #d30000;
+  background-size: cover; 
 
-  #home2-page2 ul{
-    width: min(60rem, 90%);
+  overflow: hidden;
+}
+.background li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  animation: animate 19s linear infinite;
+}
 
-  }
-  
+.titre-page2 h1{
+  display: flex;
+  justify-content: center;
+  color:white;
+  align-items: center;
+  height: 100vh;
+  font-size: 5rem;
+  font-family: 'Poppins_Bold';
+}
+
+.titre-page2 h1{
+  display: flex;
+  justify-content: center;
+  color:white;
+  align-items: center;
+  height: 100vh;
+  font-size: 5rem;
+  font-family: 'Poppins_Bold';
+}
+
+.q-gen{
+  font-family: 'Poppins_Bold';
+  background-color: #f9f9f9; /* Couleur de fond de la section */
+  padding: 20px; /* Espace intérieur de la section */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
+  margin: 5% auto; /* Espace autour de la section */
+  max-width: 1000px; /* Largeur maximum de la box */
+}
+
+#explication-faq{
+  margin-top: 15%;
+}
+
+.gen-box{
+  text-align: start;
+}
+
+.gen-box h1 {
+  display: flex;
+   justify-content: center;
+   font-size: 24px; /* Taille du titre */
+   color: #181818; /* Couleur du texte */
+   margin-bottom: 20px; /* Marge en dessous du titre */
+ }
+
+#sommaire-faq {
+  font-family: 'Poppins_Bold';
+  background-color: #f9f9f9; /* Couleur de fond de la section */
+  padding: 20px; /* Espace intérieur de la section */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
+  margin: 5% auto; /* Espace autour de la section */
+  max-width: 400px; /* Largeur maximum de la box */
+}
+
+.sommaire-box {
+  text-align: start; /* Centre le texte à l'intérieur de la box */
+}
+
+.sommaire-box h1 {
+ display: flex;
+  justify-content: center;
+  font-size: 24px; /* Taille du titre */
+  color: #181818; /* Couleur du texte */
+  margin-bottom: 20px; /* Marge en dessous du titre */
+}
+
+.sommaire-box ul {
+  list-style-type: none; /* Supprime les puces de la liste */
+  padding: 0; /* Supprime le remplissage de la liste */
+}
+
+.sommaire-box li {
+  margin: 10px 0; /* Marge verticale entre les éléments de la liste */
+}
+
+.sommaire-box a {
+  text-decoration: none; /* Supprime le soulignement des liens */
+  color: #cc0605; /* Couleur des liens */
+  font-weight: bold; /* Met le texte des liens en gras */
+  transition: color 0.3s; /* Transition pour l'effet hover */
+}
+
+.sommaire-box a:hover {
+  color: #181818; /* Couleur des liens au survol */
+}
+
+.faq {
+  font-family: 'Poppins_Bold';
+  background-color: #f9f9f9; /* Couleur de fond de la section */
+  padding: 20px; /* Espace intérieur de la section */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre portée */
+  margin: 5% auto; /* Espace autour de la section */
+  max-width: 1000px; /* Largeur maximum de la box */
+}
+
+.faq {
+  display: flex;
+  justify-content: space-between; /* Crée de l'espace entre les éléments */
+}
+
+.faq img {
+  padding: 3%;
+  max-width: 50%; /* Limite la taille de l'image */
+  height: auto; /* Garde le ratio de l'image */
+}
+
+
+.box {
+  text-align: start; /* Aligne le texte à gauche */
+}
+
+.box h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 24px; /* Taille du titre */
+  color: #181818; /* Couleur du texte */
+  margin-bottom: 20px; /* Marge en dessous du titre */
+}
+
+.box li a{
+  text-decoration: none;
+  color: #cc0605;
+}
+
+.box ol {
+  margin: 0; /* Supprime la marge par défaut */
+  padding-left: 20px; /* Indentation pour les numéros */
+  color: #333333;
+}
+
+.box li {
+  margin-bottom: 10px; /* Espace entre les étapes */
+}
+
+#home-page2  {
+  font-family: 'Poppins_Bold';
+  background-color: #cc0605;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#home-page2 h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+#home-page2 p {
+  font-size: 18px;
+}
+
   /* line */
   #ul1::before {
     content: "";
@@ -136,7 +260,6 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2) 100%, transparent);
     position: absolute;
     top: 100%;
-  
     clip-path: polygon(0 0, 100% 0, 0 100%);
     right: 0;
   }
@@ -229,14 +352,6 @@ body {
     }
   }
 
-#home-2 {
-    background-color: aliceblue;
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat; 
-    background-attachment: relative; 
-    height: 100vh; 
-} 
 
 body, html {
     margin: 0;
@@ -263,16 +378,7 @@ body, html {
   }
 
 
-  .home-content h1 {
-    position: absolute;
-    font-size: 15rem; /* Grand titre */
-    left: 20%;
-    bottom: 50%;
-    font-weight: bold;
-    font-family: 'Barlow';
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Ombre noire avec un flou de 5px */
-
-  }
+ 
 
   .home-content h2 {
     position: absolute;
@@ -299,7 +405,10 @@ body, html {
   }
   
 
-  
+  @font-face {
+    font-family: "Poppins_Bold";
+    src: url(../fonts/poppins/Poppins-Bold.ttf) format(truetype);
+  } 
 
 @font-face {
     font-family: "Barlow";
@@ -314,61 +423,99 @@ body, html {
     src: url(../fonts/HelveticaNeueLTPro-BlkCn.otf) format(opentype);
 }
 
-.logo-nav{
-  float: left;
-  margin-left: 15%;
+nav.scrolled {
+  background-color: red;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+
+}
+
+
+/* Sidenav menu */
+nav {
+  transition: background-color 0.3s ease;
+
+    width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%; /* S'étend sur toute la largeur */
+    z-index: 1000; /* S'assure qu'elle reste au-dessus des autres éléments */
+    
+}
+
+#mySidenav{
+  font-family: 'Poppins_Bold';
+}
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -250px;
+    background-color: #e60000;
+    padding-top: 60px;
+    transition: left 0.5s ease;
   }
   
-  .navbar ul{
-    margin-left: 50%;
-  align-items: center;
-  margin-top: 10px;
-  }
-  
-  .navbar {
-      width: 100%;
-      position: fixed;
-      top: 0;
-      left: 0;
-      background-color: rgba(255, 255, 255, 0); /* Transparent */
-      padding: 15px 0;
-      transition: background-color 0.3s ease; /* Transition pour l'effet de transparence */
-      z-index: 1000; /* Priorité haute pour la navbar */
-  }
-  
-  /* Lorsque l'utilisateur défile et que la classe 'scrolled' est active */
-  .navbar.scrolled {
-      background-color: #cc0605; /* Couleur de fond avec opacité */ 
-      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optionnel : ajouter une ombre */
-  }
-  
-  
-  .navbar ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap; /* Permet aux éléments de revenir à la ligne */
-  }
-  .navbar ul li {
-      margin: 0 20px;
-  }
-  
-  .navbar ul li a {
-    font-family: "Barlow";
+  /* Sidenav menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
     text-decoration: none;
+    font-size: 25px;
     color: white;
-    font-size: 18px; /* Taille de police par défaut */
-    transition: color 0.3s ease, font-size 0.3s ease; /* Transition pour le changement de taille */
+    display: block;
+    transition: 0.3s;
   }
   
-  .navbar ul li a:hover {
-      color: rgba(225, 222, 228, 0.938); /* Changement de couleur au survol */
+  .sidenav a:hover {
+    color: #111;
   }
   
-  /* Effet d'opacité lorsqu'on défile */
-  body.scrolled .navbar {
-      background-color: rgba(255, 255, 255, 0.1); /* Légère opacité quand on scrolle */
+  .sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
   }
+  
+  /* Active class */
+  .sidenav.active {
+    left: 0;
+  }
+  
+  /* Close btn */
+  .sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  /* Icône burger */
+  .burger-icon span {
+    display: block;
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 0.8%;
+  }
+
+  #openBtn span:hover {
+    background-color: #e60000;
+  }
+  .burger-icon:hover span:nth-child(1) {
+    background-color: #e60000;
+}
+
+.burger-icon:hover span:nth-child(2) {
+    background-color: #e60000;
+}
+
+.burger-icon:hover span:nth-child(3) {
+    background-color: #e60000;
+}
 
 
 
@@ -592,8 +739,6 @@ footer .fa-whatsapp{
   }
   
   .faq-item {
-    background: #fff;
-    border: 1px solid #ddd;
     border-radius: 5px;
     margin-bottom: 1rem;
     overflow: hidden;
@@ -603,11 +748,16 @@ footer .fa-whatsapp{
     width: 100%;
     text-align: left;
     padding: 1rem;
-    background-color: #007bff;
+    background-color: #cc0605;
     color: white;
+    font-family: 'Poppins_Bold';
     border: none;
+    border-radius: 50px;
     cursor: pointer;
     font-size: 1rem;
+  }
+  .faq-question:hover{
+    background-color: #181818;
   }
   
   .faq-answer {
@@ -615,6 +765,7 @@ footer .fa-whatsapp{
     padding: 1rem;
     background-color: #f9f9f9;
     border-top: 1px solid #ddd;
+    color: #333333;
   }
   
   .faq-question:focus {
@@ -622,7 +773,7 @@ footer .fa-whatsapp{
   }
   
   .faq-question.active {
-    background-color: #0056b3;
+    background-color: #181818;
   }
   
   .faq-answer p {
