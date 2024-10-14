@@ -5,24 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page Histoire</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="css/style_histoire.css">
+    <link rel="stylesheet" type="text/css" href="style_histoire.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
 
     <header>
-        <nav class="navbar">
-            <img class="logo-nav" src="images/logo.svg" width="50" height="50" alt="Logo du Site">
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="histoire.html">Histoire</a></li>
-                <li><a href="actualités.html">Actualités</a></li>
-                <li><a href="economie.html">Economie</a></li>
-                <li><a href="support_faq.html">Support FAQ</a></li>
-            </ul>
-        </nav>
+        <nav>
+            <div id="mySidenav" class="sidenav">
+                <a id="closeBtn" href="#" class="close">×</a>
     
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="histoire.html">Histoire</a></li>
+                    <li><a href="actualités.html">Actualités</a></li>
+                    <li><a href="economie.html">Economie</a></li>
+                    <li><a href="support_faq.html">Support FAQ</a></li>
+                </ul>
+    
+            </div>
+    
+            <!-- Icône burger pour ouvrir la barre latérale -->
+            <a href="#" id="openBtn">
+                <span class="burger-icon">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+    
+                  
+                </span>
+            </a>
+    
+            <script>
+               
+        var sidenav = document.getElementById("mySidenav");
+        var openBtn = document.getElementById("openBtn");
+        var closeBtn = document.getElementById("closeBtn");
+        var nav = document.querySelector("nav");
+    
+        openBtn.onclick = openNav;
+        closeBtn.onclick = closeNav;
+    
+        // Ouvrir le menu latéral
+        function openNav() {
+            sidenav.classList.add("active");
+            nav.classList.remove("scrolled"); // Désactiver la barre de navigation
+            window.removeEventListener("scroll", onScroll); // Désactiver le scroll event
+        }
+    
+        // Fermer le menu latéral
+        function closeNav() {
+            sidenav.classList.remove("active");
+            window.addEventListener("scroll", onScroll); // Réactiver le scroll event
+        }
+    
+        // Fonction pour gérer le scroll
+        function onScroll() {
+            if (window.scrollY > 100) {
+                nav.classList.add("scrolled");
+            } else {
+                nav.classList.remove("scrolled");
+            }
+        }
+    
+        // Ajouter l'écouteur d'événements pour le scroll au chargement
+        window.addEventListener("scroll", onScroll);
+    
+        // Empêche le comportement par défaut du lien pour le bouton burger
+        openBtn.onclick = function(event) {
+            event.preventDefault();  // Empêche le comportement par défaut du lien
+            openNav();
+        };
+    
+        closeBtn.onclick = function(event) {
+            event.preventDefault();  // Empêche le comportement par défaut du lien
+            closeNav();
+        };
+            </script>
+        </nav>
     </header>
 
     <section id="home-page2">
@@ -51,7 +112,7 @@
         <div class="createur">
         <p id="txt-createur">
             Alain Bravo est l'ingénieur français à l'origine de la fondation de SFR (Société Française du Radiotéléphone) 
-            en 1987. Visionnaire dans le domaine des télécommunications, il a joué un rôle essentiel dans la mise en place
+            en 1987. Visionnaire dans le domaine des télécommunications, avec Richard Lallande, il ont joué un rôle essentiel dans la mise en place
             des réseaux de téléphonie mobile en France. Sous sa direction, SFR a rapidement évolué pour devenir
             l'un des premiers opérateurs de téléphonie mobile dans le pays, ouvrant la voie au développement
             des communications sans fil.
