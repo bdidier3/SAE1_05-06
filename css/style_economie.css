@@ -45,19 +45,6 @@ body {
   }
 }
 
-.background {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-  margin: 0;
-  padding: 0;
-  background: #d30000;
-  background-size: cover; 
-
-  overflow: hidden;
-}
 .background li {
   position: absolute;
   display: block;
@@ -158,7 +145,7 @@ body {
 #home-page2 {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(62, 158, 126);
+  background-color: #f71d1d;
   /*background: url("../images/fond.jpeg");*/
   background-size: cover; 
   background-position: center; 
@@ -838,8 +825,8 @@ margin: 0 2px; /* Ajuste l'espacement entre les éléments */
   height: 400px; /* Hauteur de l'image au départ */
   overflow: hidden; /* Cache l'excédent lors de l'agrandissement */
   transition: width 0.3s ease, height 0.3s ease; /* Transition pour agrandir */
-  margin-left: 35%;
-  margin-right: 35%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 .image-hover {
