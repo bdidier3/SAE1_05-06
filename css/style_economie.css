@@ -838,8 +838,8 @@ margin: 0 2px; /* Ajuste l'espacement entre les éléments */
   height: 400px; /* Hauteur de l'image au départ */
   overflow: hidden; /* Cache l'excédent lors de l'agrandissement */
   transition: width 0.3s ease, height 0.3s ease; /* Transition pour agrandir */
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
 }
 
 .image-hover {
@@ -854,6 +854,6 @@ margin: 0 2px; /* Ajuste l'espacement entre les éléments */
 }
 
 .rapport {
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 22%;
+  margin-right: 22%;
 }
