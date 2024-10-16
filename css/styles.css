@@ -725,7 +725,8 @@ nav {
   margin-bottom: 20px;
 }
 
-#about-us strong {
+#about-us a{
+  text-decoration: none;
   color: #e60000; /* Mettre en valeur avec le rouge de SFR */
 }
 
