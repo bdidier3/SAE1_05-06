@@ -121,6 +121,8 @@ Le projet est un site web présentant l'entreprise SFR. Ce-dernier comporte une 
 
 # Impact écologique du projet
 
+[Lien vers la page pour voir l'impact écologique](https://www.ecoindex.fr/resultat/?id=78be5e07-1dda-4cfd-9377-74c3689b1880)
+
 ![Image montrant l'impact écologique du projet](https://media.discordapp.net/attachments/1281223464455241812/1296442840511021086/image.png?ex=67124dfb&is=6710fc7b&hm=6edaf576e94a80d81c0d3414b4d4671e8d8e0a8d2a352a7044b1aab2e216dc45&=&format=webp&quality=lossless&width=950&height=487)
 
 
