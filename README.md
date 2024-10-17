@@ -71,7 +71,7 @@ Le projet est un site web présentant l'entreprise SFR. Ce-dernier comporte une 
 
 
 # 💼 Contribution au projet
-![Image montrant la contribution du projet sur GITHUB](https://media.discordapp.net/attachments/1281223464455241812/1296440510399123456/image.png?ex=67124bd0&is=6710fa50&hm=f28adff58ba567bb2d21f44d4e1094fba514a33b8bcf956bbdc4db39d5b3affb&=&format=webp&quality=lossless)
+![Image montrant la contribution du projet sur GITHUB](https://media.discordapp.net/attachments/1281223464455241812/1296456644057759834/image.png?ex=67125ad6&is=67110956&hm=b6094813986973c7cfda3295c1b93ac676e0ed4372cd19411ad91d4f2fb6ca3b&=&format=webp&quality=lossless)
 
 # 👨‍💼 Répartition du travail
 
