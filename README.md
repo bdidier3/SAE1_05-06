@@ -40,7 +40,7 @@ Le projet est un site web présentant l'entreprise SFR. Ce-dernier comporte une 
 
 [w3c Page histoire](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbdidier3.github.io%2FSAE1_05-06%2Fhistoire.html)
 
-![Image montrant un check positif w3c pour la page histoire](![image](https://github.com/user-attachments/assets/0f175dc3-f587-4b4d-b486-94262b73d9fa))
+![Image montrant un check positif w3c pour la page histoire](https://github.com/user-attachments/assets/0f175dc3-f587-4b4d-b486-94262b73d9fa)
 
 
 ### Page actualité
@@ -49,7 +49,7 @@ Le projet est un site web présentant l'entreprise SFR. Ce-dernier comporte une 
 
 [w3c Page d'actualitél](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbdidier3.github.io%2FSAE1_05-06%2Factualit%C3%A9s.html)
 
-![Image montrant un check positif w3c pour la page actualité](![image](https://github.com/user-attachments/assets/aacc7fce-581f-44e1-8ebd-ca89a3b9a645))
+![Image montrant un check positif w3c pour la page actualité](https://github.com/user-attachments/assets/aacc7fce-581f-44e1-8ebd-ca89a3b9a645)
 
 
 ### Page économie
@@ -58,7 +58,7 @@ Le projet est un site web présentant l'entreprise SFR. Ce-dernier comporte une 
 
 [w3c Page économie]( https://validator.w3.org/nu/?doc=https%3A%2F%2Fbdidier3.github.io%2FSAE1_05-06%2Feconomie.html)
 
-![Image montrant un check positif w3c pour la page économie](![image](https://github.com/user-attachments/assets/ab132c3e-96fa-4ee2-9a16-dec751b9864c))
+![Image montrant un check positif w3c pour la page économie](https://github.com/user-attachments/assets/ab132c3e-96fa-4ee2-9a16-dec751b9864c)
 
 ### Page support FAQ
 
@@ -66,11 +66,11 @@ Le projet est un site web présentant l'entreprise SFR. Ce-dernier comporte une 
 
 [w3c Page support FAQ](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbdidier3.github.io%2FSAE1_05-06%2Fsupport_faq.html)
 
-![Image montrant un check positif w3c pour la page faq_support](![image](https://github.com/user-attachments/assets/71b6a859-9acf-450b-af8b-e8de61ed49bc))
+![Image montrant un check positif w3c pour la page faq_support](https://github.com/user-attachments/assets/71b6a859-9acf-450b-af8b-e8de61ed49bc)
 
 
 # Contribution au projet
-![Image montrant la contribution du projet sur GITHUB](![image](https://media.discordapp.net/attachments/1281223464455241812/1296440510399123456/image.png?ex=67124bd0&is=6710fa50&hm=f28adff58ba567bb2d21f44d4e1094fba514a33b8bcf956bbdc4db39d5b3affb&=&format=webp&quality=lossless))
+![Image montrant la contribution du projet sur GITHUB](https://media.discordapp.net/attachments/1281223464455241812/1296440510399123456/image.png?ex=67124bd0&is=6710fa50&hm=f28adff58ba567bb2d21f44d4e1094fba514a33b8bcf956bbdc4db39d5b3affb&=&format=webp&quality=lossless)
 
 # Répartition du travail
 
@@ -121,7 +121,7 @@ Le projet est un site web présentant l'entreprise SFR. Ce-dernier comporte une 
 
 # Impact écologique du projet
 
-![Image montrant l'impact écologique du projet](![image](https://media.discordapp.net/attachments/1281223464455241812/1296442840511021086/image.png?ex=67124dfb&is=6710fc7b&hm=6edaf576e94a80d81c0d3414b4d4671e8d8e0a8d2a352a7044b1aab2e216dc45&=&format=webp&quality=lossless&width=950&height=487))
+![Image montrant l'impact écologique du projet](https://media.discordapp.net/attachments/1281223464455241812/1296442840511021086/image.png?ex=67124dfb&is=6710fc7b&hm=6edaf576e94a80d81c0d3414b4d4671e8d8e0a8d2a352a7044b1aab2e216dc45&=&format=webp&quality=lossless&width=950&height=487)
 
 
 
