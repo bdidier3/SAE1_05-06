@@ -355,10 +355,10 @@ margin-left: 500px;
     
   }
   
-  .slide3>img{
+  .slide3>a{
 
     position: absolute;
-    bottom: 0;
+    bottom: 12vw;
     left: 50%;
     transform: translateX(-50%);
     width: 100%;
@@ -366,21 +366,21 @@ margin-left: 500px;
     height: 30vh; /* Ajuste la hauteur de l'image à 20% de la hauteur de la fenêtre */
     object-fit: cover; /* Si tu veux que l'image couvre tout l'espace disponible sans déformation */
 
-    transform: translateX(-50%); /* Assure que l'image est bien centrée */
+    transform: translateX(-55%); /* Assure que l'image est bien centrée */
     transform-origin: bottom; /* L'image grandit à partir du bas */
     transition: transform 0.3s ease-out, filter 0.5s ease-out; /* Transition pour un effet fluide */
 
     
 
   }
-  .slide3>img:hover  {
+  .slide3>a:hover  {
     transform: translateX(-50%) scale(1.5);
     filter: brightness(10%);
     
   }
 
  
-  .slide3 img:hover + .text {
+  .slide3 a:hover + .text {
     opacity: 1; /* Rendre le texte visible au hover */
     transform: translate(-50%, -12vw);
   }
