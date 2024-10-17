@@ -5,25 +5,26 @@
 - 📝 [Lien du Site](#lien-du-site)
 - 🏷️ [Membres du groupe](#membres-du-groupe)
 - 🪧 [Présentation du projet](#présentation-du-projet)
+- 👨‍💻 [Développement Site Web et Validation des pages](#développement-site-web-et-validation-des-pages)
 - 💼 [Contribution au projet](#contribution-au-projet)
 - 👨‍💼 [Répartition du travail](#répartition-du-travail)
 - 🌱 [Impact écologique du projet](#impact-écologique-du-projet)
 
-# Lien du site
+# 📝 Lien du site
 [Site héberger sur GitHub Pages](https://bdidier3.github.io/SAE1_05-06/index.html)
 
-# Membres du groupe :
+# 🏷️ Membres du groupe :
 
 Etudiant 1 (référent du groupe) :  [FIGINI Ethan](mailto:ethan.figini@edu.univ-fcomte.fr)  
 Etudiant 2 : [DIDIER Baptiste](mailto:baptiste.didier@edu.univ-fcomte.fr)   
 Etudiant 3 : [DUARTE Antoine](mailto:antoine.duarte@edu.univ-fcomte.fr)  
 Etudiant 4 : [DEMOLY Mathis](mailto:mathis.demoly@edu.univ-fcomte.fr)  
 
-# Présentation du projet
+# 🪧 Présentation du projet
 
 Le projet est un site web présentant l'entreprise SFR. Ce-dernier comporte une page d’accueil mettant en avant l’identité visuelle de l'entreprise, faisant office de menu. Le site compte également 4 autres pages présentant respectivement la histoire de l’entreprise, ses actualtés, sa situation économique et un support FAQ.
 
-# Développement Site Web et Validation des pages
+# 👨‍💻 Développement Site Web et Validation des pages
 
 ### Page d'accueil
 
@@ -69,10 +70,10 @@ Le projet est un site web présentant l'entreprise SFR. Ce-dernier comporte une 
 ![Image montrant un check positif w3c pour la page faq_support](https://github.com/user-attachments/assets/71b6a859-9acf-450b-af8b-e8de61ed49bc)
 
 
-# Contribution au projet
+# 💼 Contribution au projet
 ![Image montrant la contribution du projet sur GITHUB](https://media.discordapp.net/attachments/1281223464455241812/1296440510399123456/image.png?ex=67124bd0&is=6710fa50&hm=f28adff58ba567bb2d21f44d4e1094fba514a33b8bcf956bbdc4db39d5b3affb&=&format=webp&quality=lossless)
 
-# Répartition du travail
+# 👨‍💼 Répartition du travail
 
 ### Réalisation du README
 
@@ -119,7 +120,7 @@ Le projet est un site web présentant l'entreprise SFR. Ce-dernier comporte une 
 - Ethan FIGINI
   - Page d'actualités
 
-# Impact écologique du projet
+# 🌱 Impact écologique du projet
 
 [Lien vers la page pour voir l'impact écologique](https://www.ecoindex.fr/resultat/?id=78be5e07-1dda-4cfd-9377-74c3689b1880)
 
