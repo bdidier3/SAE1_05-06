@@ -31,7 +31,7 @@ Le projet est un site web présentant l'entreprise SFR. Ce-dernier comporte une 
 
 [w3c Page Accueil](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbdidier3.github.io%2FSAE1_05-06%2Findex.html)
 
-![Image montrant un check positif w3c pour la page accueil](![image](https://github.com/user-attachments/assets/aa23831f-9de7-491d-8426-97e5c3af3808))
+![Image montrant un check positif w3c pour la page accueil](https://github.com/user-attachments/assets/aa23831f-9de7-491d-8426-97e5c3af3808)
 
 
 ### Page histoire
