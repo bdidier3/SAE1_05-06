@@ -189,9 +189,7 @@ html, body, section {
     color: rgb(243, 240, 240);
     
 
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
-    border-radius: 20px;
+  
   }
   
   .slide1>ul{
@@ -341,8 +339,7 @@ margin-left: 500px;
     color: rgb(247, 240, 240);
   margin-left: 10vw;
   text-align: center;
-  -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: rgb(0, 0, 0);
+ 
   
   }
   .slide3>h4{
@@ -354,8 +351,7 @@ margin-left: 500px;
     position: absolute;
     margin-left: 45%;
     color: rgb(241, 236, 236);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
+ 
     
   }
   
