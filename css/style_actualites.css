@@ -189,7 +189,6 @@ html, body, section {
     color: rgb(243, 240, 240);
     
 
-  
   }
   
   .slide1>ul{
@@ -300,8 +299,7 @@ margin-left: 500px;
     margin-right: 40%;
     margin-top: 6vw;
     color: rgb(34, 33, 33);
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
+  
   }
  
 
@@ -351,7 +349,7 @@ margin-left: 500px;
     position: absolute;
     margin-left: 45%;
     color: rgb(241, 236, 236);
- 
+  
     
   }
   
@@ -359,14 +357,14 @@ margin-left: 500px;
 
     position: absolute;
     bottom: 12vw;
-    left: 50%;
+    left: 47%;
     transform: translateX(-50%);
     width: 100%;
     max-width: 1200px;
     height: 30vh; /* Ajuste la hauteur de l'image à 20% de la hauteur de la fenêtre */
     object-fit: cover; /* Si tu veux que l'image couvre tout l'espace disponible sans déformation */
 
-    transform: translateX(-55%); /* Assure que l'image est bien centrée */
+    transform: translateX(-50%); /* Assure que l'image est bien centrée */
     transform-origin: bottom; /* L'image grandit à partir du bas */
     transition: transform 0.3s ease-out, filter 0.5s ease-out; /* Transition pour un effet fluide */
 
@@ -382,7 +380,7 @@ margin-left: 500px;
  
   .slide3 a:hover + .text {
     opacity: 1; /* Rendre le texte visible au hover */
-    transform: translate(-50%, -12vw);
+    transform: translate(-50%, -10vw);
   }
 
   .text {
@@ -434,6 +432,7 @@ margin-left: 500px;
   grid-gap: 20px;
   grid-template-columns: repeat(3, minmax(350px, 200px));
   
+  
 
  
 position: absolute;
@@ -449,13 +448,13 @@ margin-top: 20vw;
 
   border-radius: 30px;
   padding: 10px;
-  background: white;
+  background-image: url(../images/fondblanc.jpg);
   box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.057);
   transform: scale(0.9);
   transition: transform 0.5s, opacity 3s;
   border: solid;
   border-color: black;
-  border-width: 5px;
+  border-width: 3px;
   
 
 .contenu-carte {
