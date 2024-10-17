@@ -124,7 +124,7 @@ body, html {
     max-width: 45%; /* Adapte la taille de l'image */
     height: auto;
     top:0%;
-    left: 40%;
+    left: 45%;
   }
   
 
@@ -679,6 +679,10 @@ nav {
   #home {
     display: flex;
     flex-wrap: wrap;
+  }
+  .home-image img{
+    display: flex;
+    justify-content: center;
   }
   
   .home-content {
