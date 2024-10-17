@@ -2,13 +2,13 @@
 
 ## Sommaire
 
-- 📝 [Lien du Site](#📝-lien-du-site)
-- 🏷️ [Membres du groupe](#🏷️-membres-du-groupe)
-- 🪧 [Présentation du projet](#présentation-du-projet)
-- 👨‍💻 [Développement Site Web et Validation des pages](#développement-site-web-et-validation-des-pages)
-- 💼 [Contribution au projet](#contribution-au-projet)
-- 👨‍💼 [Répartition du travail](#répartition-du-travail)
-- 🌱 [Impact écologique du projet](#impact-écologique-du-projet)
+- 📝 [Lien du Site](#-lien-du-site)
+- 🏷️ [Membres du groupe](#-membres-du-groupe)
+- 🪧 [Présentation du projet](#-présentation-du-projet)
+- 👨‍💻 [Développement Site Web et Validation des pages](#-développement-site-web-et-validation-des-pages)
+- 💼 [Contribution au projet](#-contribution-au-projet)
+- 👨‍💼 [Répartition du travail](#-répartition-du-travail)
+- 🌱 [Impact écologique du projet](#-impact-écologique-du-projet)
 
 # 📝 Lien du site
 [Site héberger sur GitHub Pages](https://bdidier3.github.io/SAE1_05-06/index.html)
