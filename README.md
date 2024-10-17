@@ -3,7 +3,7 @@
 ## Sommaire
 
 - 📝 [Lien du Site](#-lien-du-site)
-- 🏷️ [Membres du groupe](#-membres-du-groupe)
+- 🏷️ [Membres du groupe](#%EF%B8%8F-membres-du-groupe)
 - 🪧 [Présentation du projet](#-présentation-du-projet)
 - 👨‍💻 [Développement Site Web et Validation des pages](#-développement-site-web-et-validation-des-pages)
 - 💼 [Contribution au projet](#-contribution-au-projet)
