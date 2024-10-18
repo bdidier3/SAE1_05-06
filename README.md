@@ -12,6 +12,8 @@
 
 # 📝 Lien du site
 [Site héberger sur GitHub Pages](https://bdidier3.github.io/SAE1_05-06/index.html)
+[Site héberger sur GitLab Pages](https://sae-05-06-sfr-1a6b7f.gitlab.io/)
+[Site héberger sur BitBucket Pages](https://saefigini90.bitbucket.io/)
 
 # 👥 Membres du groupe :
 
