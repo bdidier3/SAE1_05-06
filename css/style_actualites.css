@@ -52,7 +52,7 @@ html, body, section {
  .slide2 { background-color: #ffefd5; } /* Beige */
  .slide3 { background-color: #ce2a2a; } /* Lavande */
  .slide4 { background-color: #f5f5dc; } /* Crème */
- .slide5 { background-color: #ffffff; } /* Rose pâle */
+ .slide5 { background-color: #cc0605; } /* Rose pâle */
 
  
  @keyframes animate {
@@ -193,13 +193,14 @@ html, body, section {
   
   .slide1>ul{
     font-size: 3vw;
-    
+    position: absolute;
+    scale:0.5;
 
-   position: absolute;
- margin-left: -14vw;
-    scale: 0.45;
-    
-
+  }
+  .slide1 li{
+    margin-top:16%;
+    margin-left: -45%;
+    margin-right: 35%;
   }
 
 li>a{
@@ -228,7 +229,7 @@ display: block;
 /* HOVER POUR LA LISTE SLIDE 1 */
 
 .home-button {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins_Bold', sans-serif;
   
   display: flex;
   justify-content: space-around;
@@ -356,7 +357,7 @@ margin-left: 500px;
   .slide3>a{
 
     position: absolute;
-    bottom: 12vw;
+    bottom: 10vw;
     left: 47%;
     transform: translateX(-50%);
     width: 100%;
@@ -564,13 +565,16 @@ margin-top: 20vw;
   
 
 
-
+    @font-face {
+      font-family: 'Poppins_Bold';
+      src: url(../fonts/poppins/Poppins-Bold.ttf);
+    }
 
 
 
   /*FOOTER*/
   footer{
-    font-family: 'Cabin';
+    font-family: 'Poppins_Bold';
     margin-top: 25%;
     background: #cc0605;
     color: white;

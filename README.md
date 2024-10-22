@@ -2,18 +2,20 @@
 
 ## Sommaire
 
-- 📝 [Lien du Site](#lien-du-site)
-- 🏷️ [Membres du groupe](#membres-du-groupe)
-- 🪧 [Présentation du projet](#présentation-du-projet)
-- 👨‍💻 [Développement Site Web et Validation des pages](#développement-site-web-et-validation-des-pages)
-- 💼 [Contribution au projet](#contribution-au-projet)
-- 👨‍💼 [Répartition du travail](#répartition-du-travail)
-- 🌱 [Impact écologique du projet](#impact-écologique-du-projet)
+- 📝 [Lien du Site](#-lien-du-site)
+- 👥 [Membres du groupe](#-membres-du-groupe-)
+- 🪧 [Présentation du projet](#-présentation-du-projet)
+- 👨‍💻 [Développement Site Web et Validation des pages](#-développement-site-web-et-validation-des-pages)
+- 💼 [Contribution au projet](#-contribution-au-projet)
+- 👨‍💼 [Répartition du travail](#-répartition-du-travail)
+- 🌱 [Impact écologique du projet](#-impact-écologique-du-projet)
 
 # 📝 Lien du site
-[Site héberger sur GitHub Pages](https://bdidier3.github.io/SAE1_05-06/index.html)
+- [Site héberger sur GitHub Pages](https://bdidier3.github.io/SAE1_05-06/index.html)
+- [Site héberger sur GitLab Pages](https://sae-05-06-sfr-1a6b7f.gitlab.io/)
+- [Site héberger sur BitBucket Pages](https://saefigini90.bitbucket.io/)
 
-# 🏷️ Membres du groupe :
+# 👥 Membres du groupe :
 
 Etudiant 1 (référent du groupe) :  [FIGINI Ethan](mailto:ethan.figini@edu.univ-fcomte.fr)  
 Etudiant 2 : [DIDIER Baptiste](mailto:baptiste.didier@edu.univ-fcomte.fr)   
@@ -48,7 +50,7 @@ Le projet est un site web présentant l'entreprise SFR. Ce-dernier comporte une 
 
 **Auteur : Ethan FIGINI**
 
-[w3c Page d'actualitél](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbdidier3.github.io%2FSAE1_05-06%2Factualit%C3%A9s.html)
+[w3c Page d'actualité](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbdidier3.github.io%2FSAE1_05-06%2Factualit%C3%A9s.html)
 
 ![Image montrant un check positif w3c pour la page actualité](https://github.com/user-attachments/assets/aacc7fce-581f-44e1-8ebd-ca89a3b9a645)
 
@@ -71,7 +73,7 @@ Le projet est un site web présentant l'entreprise SFR. Ce-dernier comporte une 
 
 
 # 💼 Contribution au projet
-![Image montrant la contribution du projet sur GITHUB](https://media.discordapp.net/attachments/1281223464455241812/1296440510399123456/image.png?ex=67124bd0&is=6710fa50&hm=f28adff58ba567bb2d21f44d4e1094fba514a33b8bcf956bbdc4db39d5b3affb&=&format=webp&quality=lossless)
+![Image montrant la contribution du projet sur GITHUB](https://media.discordapp.net/attachments/1281223464455241812/1296456644057759834/image.png?ex=67125ad6&is=67110956&hm=b6094813986973c7cfda3295c1b93ac676e0ed4372cd19411ad91d4f2fb6ca3b&=&format=webp&quality=lossless)
 
 # 👨‍💼 Répartition du travail
 
